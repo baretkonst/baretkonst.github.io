@@ -1,0 +1,385 @@
+/* Grundläggande stil för hela sidan */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 148px; /* Ger plats för fixerat header */
+    background-color: #fefefe;
+}
+
+/* Header: fixerat längst upp */
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #160758;
+    color: white;
+    padding: 30px 20px;
+    margin-bottom: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; /* Centrerar headern horisontellt */
+    align-items: center;
+}
+
+/* Innehållet i headern (logotyp + titel) */
+.header-content {
+    display: flex;
+    flex-direction: column; /* Logotyp ovanför titel */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1; /* Se till att logotypen och titeln ligger ovanpå språkknappen */
+}
+
+/* Logotypen */
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px; /* Mellanrum mellan logotyp och titel */
+}
+
+/* Titel */
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Språkval dropdown */
+.language-dropdown {
+    position: absolute;
+    top: 10px; /* Placera språkmenyn i övre högra hörnet */
+    right: 20px; /* Placera språkmenyn till höger */
+}
+
+/* Dropdown knapp */
+.dropdown-btn {
+    background-color: #160758;
+    color: white;
+    border: 1px solid #160758;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: auto;
+    min-width: 160px;
+}
+
+.dropdown-btn:hover {
+    background-color: #160758;
+}
+
+/* Dropdown meny */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background-color: #10053f;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    width: 150px;
+    z-index: 1000;
+}
+
+.language-dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    border-bottom: 1px solid #10053f;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #555;
+}
+
+.flag-icon {
+    width: 20px; 
+    height: 15px;
+}
+
+/* Hero image: stor bild under header */
+.hero-image img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* Horisontell meny som stannar under headern */
+.main-nav {
+    position: sticky;
+    top: 148px; /* Stannar precis under headern */
+    background-color: rgb(14, 6, 49);
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+    z-index: 999; /* Ser till att menyn är över texten */
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-nav ul li a:hover {
+    background-color: #22628D;
+}
+
+/* Text sektion under menyn */
+.content {
+    padding: 20px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.works {
+    padding: 20px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.images_table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.images_small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+    border: 1px solid black;
+}
+
+/* Sektion med två bilder som täcker hela bredden */
+.image-section {
+    display: flex;
+    width: 100%;
+    height: 300px; /* Högden kan justeras efter behov */
+}
+
+.image-left, .image-right {
+    flex: 1; /* Båda bilderna kommer att ta lika stor plats */
+    overflow: hidden;
+}
+
+.image-left img, .image-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Gör att bilderna täcker hela ytan utan att förvrängas */
+}
+
+/* Footer: Rand längst ner */
+.site-footer {
+    background-color: rgb(0, 0, 0); /* Samma färg som headern */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.contact-page {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.contact-page h1 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-page p {
+    text-align: center;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;  /* Centrerar rutorna horisontellt */
+}
+
+.works-item {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    width: 100%;  /* Sätt bredden på varje ruta till 40% av sidans bredd */
+    margin: 0 auto;
+}
+
+.info-item {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    width: 40%;  /* Sätt bredden på varje ruta till 40% av sidans bredd */
+}
+
+.info-item h2 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.info-item p {
+    color: #666;
+}
+
+.info-item a {
+    color: #010407;
+    text-decoration: none;
+}
+
+.info-item a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrerar innehållet horisontellt */
+}
+
+
+
+.main-image img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Justera avståndet mellan bilden och ikonerna om det behövs */
+}
+
+
+.icons .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px; /* Avstånd mellan varje ikon */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.icons .icon:hover {
+    transform: scale(1.1);
+}
+
+.centered-table {
+    margin: 0 auto; /* Centrerar tabellen horisontellt */
+    width: 50%; /* Du kan justera bredden på tabellen om du vill */
+  }
+  
+  .centered-table td {
+    padding: 10px; /* Lite padding för att ge utrymme mellan cellerna */
+    text-align: center; /* Centrerar texten i varje cell */
+  }
+  
+
+  .about {
+    text-align: left;
+
+  }
+
+  .thumbnail-table {
+    width: 40%;  /* Sätt bredden på tabellen till 40% */
+    margin: 0 auto; /* Centrerar tabellen på sidan */
+    table-layout: auto; /* Gör att tabellen inte försöker fylla hela bredden */
+}
+
+
+.thumbnail-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.thumbnail {
+    width: 100px; /* Anpassa storleken på miniatyrbilderna */
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1); /* Gör miniatyrbilden lite större när muspekaren är över den */
+}

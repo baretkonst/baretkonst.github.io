@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bäret Konst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header: fixerat längst upp -->
+    <header class="site-header">
+        <div class="header-content">
+            <!-- Logotypen -->
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <h1>Bäret Art</h1>
+        </div>
+
+        <!-- Språkknappar för svenska och engelska -->
+        <div class="language-dropdown" id="language-dropdown">
+            <!-- Länk för Svenska -->
+            <a href="process.html" id="language-btn-sv" class="dropdown-btn">
+                <img src="images/sweden-flag.png" alt="Swedish" class="flag-icon"> Sv
+            </a>
+            <!-- Länk för Engelska -->
+            <a href="process_en.html" id="language-btn-en" class="dropdown-btn">
+                <img src="images/uk-flag.png" alt="English" class="flag-icon"> En
+            </a>
+        </div>
+    </header>
+
+    <!-- Horisontell meny -->
+    <nav class="main-nav" id="main-nav">
+        <ul>
+            <li><a href="index_en.html">Home</a></li>
+            <li><a href="about_en.html">About me</a></li>
+            <li><a href="process_en.html">My process</a></li>
+            <li><a href="works_en.html">Artwork</a></li>
+            <li><a href="contact_en.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Text sektion -->
+    <main>
+    <section class="content">
+        <h1>My process</h1>
+        <div class="about">
+            <p>
+                I create images by writing code that is then run and generates images.
+                My goal is to do as much as possible myself from scratch.
+                This is partly because I want to learn new things in the process but also to have control over and know what is happening in the computer.
+                Therefore, I have created programs from the ground up in the programming language C++.                
+            </p>
+            
+            <br>
+            <img src="images/code.png" class="images">
+            <br>
+
+            <p>
+                The idea I originally had was to create works based on mathematical functions that are based on random building blocks.
+                For example, several images are based on randomly generated points and each pixel in the image is then given a value based on, for example, the distance to one or more points.
+                Finally, the image is colored based on the value of each pixel and a color scale, see below.
+            </p>
+                <br>
+                <img src="images/fiery_morning.png" class="images">
+                <br>
+                <p>
+                    Another example of what I do is altering images in different ways, see the image below.
+                    I do this using my own photographs.
+                </p>
+                <br>
+                <img src="works/rain_old_0133_20250318113942403_G.png" class="images_large">
+                <br>
+        </div>
+    </section>
+</main>
+
+
+
+<footer class="site-footer">
+    <p>&copy Bäret Konst 2025. All Rights Reserved. Web Design by Bäret Konst.</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
