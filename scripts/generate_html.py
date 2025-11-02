@@ -4,14 +4,14 @@ import json
 from collections import defaultdict
 
 # Ange sökvägen till mappen med dina PNG-filer
-folder_path = '/home/bearbar/Dropbox/Projects/baretkonst.github.io/works'  # Ersätt med sökvägen till din mapp
+script_dir = os.path.dirname(os.path.abspath(__file__))
+folder_path = os.path.join(os.path.dirname(script_dir), "works")
 
 # Regexp för att extrahera DATE och COLORMAP från filnamnet
 file_pattern = re.compile(r"image_(\d+)_([a-zA-Z0-9_]+)\.png")
 
-
 # Läs in JSON-filen med namn och beskrivningar
-json_file_path = '/home/bearbar/Dropbox/Projects/baretkonst.github.io/works/name_and_description.json'  # Sökvägen till din JSON-fil
+json_file_path = os.path.join(folder_path, "name_and_description.json")
 with open(json_file_path, 'r', encoding='utf-8') as json_file:
     name_and_description = json.load(json_file)
 
@@ -19,7 +19,7 @@ with open(json_file_path, 'r', encoding='utf-8') as json_file:
 html_output = []
 
 # HTML-kod för början (header och navigation)
-html_header = """
+html_header_swe = """
 <!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -77,16 +77,92 @@ html_header = """
         <section class="works">
 """
 
-# HTML-kod för slutet (footer och script)
-html_footer = """
+html_header_en = """
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bäret Konst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header: fixerat längst upp -->
+    <header class="site-header">
+        <div class="header-content">
+            <!-- Logotypen -->
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <h1>Bäret Art</h1>
+        </div>
+
+        <!-- Språkknappar för svenska och engelska -->
+        <div class="language-dropdown" id="language-dropdown">
+            <!-- Länk för Svenska -->
+            <a href="works.html" id="language-btn-sv" class="dropdown-btn">
+                <img src="images/sweden-flag.png" alt="Swedish" class="flag-icon"> Sv
+            </a>
+            <!-- Länk för Engelska -->
+            <a href="works_en.html" id="language-btn-en" class="dropdown-btn">
+                <img src="images/uk-flag.png" alt="English" class="flag-icon"> En
+            </a>
+        </div>
+    </header>
+
+    <!-- Horisontell meny -->
+    <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="index_en.html">Home</a></li>
+          <li><a href="about_en.html">About me</a></li>
+          <li><a href="process_en.html">My process</a></li>
+          <li><a href="works_en.html">Artwork</a></li>
+          <li><a href="contact_en.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Text sektion -->
+    <main>
+        <section class="content">
+            <h1>Artwork</h1>
+            <p>Below is a selection of the images I have created.
+              To the right of some images is the same basic image but colored with a different color scale. </p>
         </section>
-        
+
+
+        <!-- Tabell med miniatyrbilder genereras automatiskt av JavaScript -->
+        <table class="thumbnail-table" id="thumbnailTable"></table>
+
+
+        <br><br><hr><br><br><br>
+
+
+        <section class="works">
+"""
+
+
+# HTML-kod för slutet (footer och script)
+html_footer_swe = """
+        </section>
+    </main>
+
         <footer class="site-footer">
           <p>&copy Bäret Konst 2025. Alla rättigheter förbehållna. Webbdesign av Bäret Konst.</p>
         </footer>
 
         <script src="script.js"></script>
     </body>
+</html>
+"""
+
+html_footer_en = """
+        </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy Bäret Konst 2025. All Rights Reserved. Web Design by Bäret Konst.</p>
+  </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
 """
 
@@ -165,11 +241,10 @@ for date, colormaps in images_by_date.items():
     counter += 1
 
 # Skriv ut den genererade HTML-koden
-html_result = html_header + "\n".join(html_output) + html_footer
+html_result = html_header_swe + "\n".join(html_output) + html_footer_swe
 
 # Spara HTML till en fil
 with open("generated_output.html", "w") as file:
     file.write(html_result)
 
 print("HTML-koden har genererats och sparats i 'generated_output.html'.")
-
