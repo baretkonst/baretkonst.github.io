@@ -3,12 +3,12 @@ import re
 import json
 from collections import defaultdict
 
-# Ange sökvägen till mappen med dina PNG-filer
+# Ange sökvägen till mappen med dina bild-filer
 script_dir = os.path.dirname(os.path.abspath(__file__))
 folder_path = os.path.join(os.path.dirname(script_dir), "works")
 
 # Regexp för att extrahera DATE och COLORMAP från filnamnet
-file_pattern = re.compile(r"image_(\d+)_([a-zA-Z0-9_]+)\.png")
+file_pattern = re.compile(r"image_(\d+)_([a-zA-Z0-9_]+)\.(png|jpeg)")
 
 # Läs in JSON-filen med namn och beskrivningar
 json_file_path = os.path.join(folder_path, "name_and_description.json")
@@ -167,12 +167,12 @@ html_footer_en = """
 """
 
 # Funktion för att skapa HTML för tabellen
-def create_html(date, colormaps, counter, name, description):
+def create_html(date, colormaps, counter, name, description,image_formats):
     # Grundstruktur för HTML-tabellen
     html = f"""
             <table class="centered-table">
                 <tr>
-                  <td><img id="work_{counter}" src="works/image_{date}_{colormaps[0]}.png" alt="Alster {counter}" class="images_table">
+                  <td><img id="work_{counter}" src="works/image_{date}_{colormaps[0]}.{image_formats[0]}" alt="Alster {counter}" class="images_table">
                   <br>
                     <div class="works-item">
                     <b>{name}</b><br>
@@ -188,9 +188,9 @@ def create_html(date, colormaps, counter, name, description):
         """
     
         # Lägg till alla COLORMAPS i tabellen
-        for idx, colormap in enumerate(colormaps):
+        for idx, (colormap, image_format) in enumerate(zip(colormaps, image_formats)):
             html += f"""
-                        <img src="works/image_{date}_{colormap}.png" alt="Alster {counter} - {idx + 1}" class="icon" onclick="changeImage('work_{counter}','works/image_{date}_{colormap}.png')">
+                        <img src="works/image_{date}_{colormap}.{image_format}" alt="Alster {counter} - {idx + 1}" class="icon" onclick="changeImage('work_{counter}','works/image_{date}_{colormap}.{image_format}')">
             """
             
         html += f"""
@@ -211,7 +211,7 @@ def create_html(date, colormaps, counter, name, description):
 # Dictionary för att hålla bilder per DATE
 images_by_date = defaultdict(list)
 
-# Hitta alla PNG-filer i mappen
+# Hitta alla bild-filer i mappen
 files = os.listdir(folder_path)
 
 # Gå igenom alla filer och gruppera dem efter DATE
@@ -221,14 +221,19 @@ for file in files:
     if match:
         date = match.group(1)
         colormap = match.group(2)
-        images_by_date[date].append(colormap)
+        file_format = match.group(3)
+        images_by_date[date].append({"colormap": colormap,"format": file_format})
+
 
 # Räknare för att spåra bildindex
 counter = 1
 
 # Generera HTML för varje grupp med bilder baserat på DATE
-for date, colormaps in images_by_date.items():
-    # Hämta NAME och DESCRIPTION från JSON-filen
+for date, entries in images_by_date.items():
+    # Extrahera colormaps och format i samma ordning
+    colormaps = [entry["colormap"] for entry in entries]
+    file_formats = [entry["format"] for entry in entries]
+
     if date in name_and_description:
         name = name_and_description[date]["name"]
         description = name_and_description[date]["description_sv"]
@@ -237,14 +242,17 @@ for date, colormaps in images_by_date.items():
         description = "Ingen beskrivning tillgänglig."
 
     # Skapa HTML för tabellen med alla COLORMAPS
-    html_output.append(create_html(date, colormaps, counter, name, description))
+    html_output.append(create_html(date, colormaps, counter, name, description,file_formats))
     counter += 1
 
 # Skriv ut den genererade HTML-koden
-html_result = html_header_swe + "\n".join(html_output) + html_footer_swe
+html_result_swe = html_header_swe + "\n".join(html_output) + html_footer_swe
+html_result_en = html_header_en + "\n".join(html_output) + html_footer_en
 
-# Spara HTML till en fil
-with open("generated_output.html", "w") as file:
-    file.write(html_result)
+# Spara HTML till fil
+with open("works_gen.html", "w") as file:
+    file.write(html_result_swe)
+with open("works_en_gen.html", "w") as file:
+    file.write(html_result_en)
 
-print("HTML-koden har genererats och sparats i 'generated_output.html'.")
+print("HTML-koden har genererats.")

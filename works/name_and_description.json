@@ -30,9 +30,21 @@
         "description_en": " "
     },
     "20230806195633987": {
-        "name": "Inget namn",
-        "description_sv": " ",
-        "description_en": " "
+        "name": "Något annat",
+        "description_sv": "Ingenting ",
+        "description_en": "Nothing ",
+        "colormaps": {
+            "starling": {
+                "name": "A gray image",
+                "description_sv": "Konstigt ",
+                "description_en": "Strange "
+            },
+            "den": {
+                "name": "pinkypink",
+                "description_sv": "Något rött ",
+                "description_en": "Something red "
+            }
+        }
     },
     "20230806192615888": {
         "name": "Inget namn",
