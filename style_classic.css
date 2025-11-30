@@ -47,6 +47,11 @@ h1 {
     font-size: 24px;
 }
 
+.language-dropdown a {
+    text-decoration: none;
+    color: inherit; /* Om du vill att textfärgen ska ärvas från omgivningen, så den inte blir blå */
+}
+
 /* Språkval dropdown */
 .language-dropdown {
     position: absolute;
@@ -172,7 +177,7 @@ h1 {
 .works {
     padding: 20px;
     text-align: center;
-    width: 40%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -185,13 +190,22 @@ h1 {
     border: 1px solid black;
 }
 
+.images_large {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+}
+
 .images_table {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 40%;
     height: auto;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .images_small {
@@ -263,20 +277,24 @@ h1 {
 }
 
 .works-item {
-    background-color: #fafafa;
+    background-color: rgb(255, 252, 247);
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 3px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-    width: 100%;  /* Sätt bredden på varje ruta till 40% av sidans bredd */
+    width: 30%;  /* Sätt bredden på varje ruta till 30% av sidans bredd */
     margin: 0 auto;
+    border: 2px solid rgb(226, 226, 226);
+    text-align: left;
 }
 
 .info-item {
-    background-color: #fafafa;
+    background-color: rgb(255, 252, 247);
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 3px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-    width: 40%;  /* Sätt bredden på varje ruta till 40% av sidans bredd */
+    width: 30%;  /* Sätt bredden på varje ruta till 40% av sidans bredd */
+    margin: 0 auto;
+    border: 2px solid rgb(226, 226, 226);
 }
 
 .info-item h2 {
@@ -346,7 +364,7 @@ ul li {
 
 .centered-table {
     margin: 0 auto; /* Centrerar tabellen horisontellt */
-    width: 50%; /* Du kan justera bredden på tabellen om du vill */
+    width: 100%; /* Du kan justera bredden på tabellen om du vill */
   }
   
   .centered-table td {
@@ -382,4 +400,96 @@ ul li {
 
 .thumbnail:hover {
     transform: scale(1.1); /* Gör miniatyrbilden lite större när muspekaren är över den */
+}
+
+/* Användargränssnitt för mobil */
+@media (max-width: 768px) {
+    body {
+        padding-top: 85px; /* Ger plats för fixerat header på mobiler */
+    }
+
+    .site-header {
+        padding: 20px 10px;
+        justify-content: space-between;
+    }
+
+    .header-content {
+        flex-direction: row; /* Logotyp och titel i rad */
+        justify-content: space-between;
+        gap: 20px; /* Öka värdet här för mer utrymme */
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 18px; /* Minskar titeln på mobiler */
+    }
+
+    .language-dropdown {
+        top: 15px;
+        right: 10px;
+    }
+
+    .main-nav {
+        top: 85px; /* Justera menyns top-position för att ligga närmare headern */
+    }
+    
+    .main-nav ul li {
+        display: block; /* Gör menyn vertikal på mobiler */
+        margin: 5px 0;
+    }
+
+    .main-nav ul li a {
+        font-size: 14px; /* Minskar textstorlek på mobiler */
+        padding: 8px 0;
+    }
+
+    .content, .works {
+        width: 80%; /* Bredden på innehållet ökar för mobiler */
+    }
+
+    .images {
+        width: 80%; /* Förstorar bilder på mobiler */
+    }
+
+    .images_small {
+        width: 60%; /* Gör små bilder större på mobiler */
+    }
+
+    .images_table {
+        width: 100%; /* Gör tabellen full bredd på mobiler */
+        padding: 5px;
+    }
+
+    /* Hero image: Gör att bilden täcker hela bredden på mobil */
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .site-footer {
+        font-size: 12px; /* Minskar textstorlek på footer för mobiler */
+    }
+
+    .image-section {
+        flex-direction: column; /* Gör att bilderna går vertikalt på mobiler */
+        height: auto;
+    }
+
+    .image-left, .image-right {
+        flex: none;
+        width: 100%;
+    }
+
+    .icons {
+        flex-direction: column; /* Gör ikonerna horisontella på mobil */
+    }
+
+    .icons .icon {
+        width: 40px;
+        height: 40px;
+    }
 }
