@@ -396,6 +396,7 @@ main, .hero-image {
     width: 80%;
     height: auto;
     border: 1px solid black;
+    margin-bottom: 20px; /* Skapar luft mot footern eller nästa element */
 }
 
 .images {
@@ -405,6 +406,7 @@ main, .hero-image {
     width: 40%;
     height: auto;
     border: 1px solid black;
+    margin-bottom: 20px; /* Skapar luft mot footern eller nästa element */
 }
 
 .images_small {
@@ -414,6 +416,7 @@ main, .hero-image {
     width: 25%;
     height: auto;
     border: 1px solid black;
+    margin-bottom: 20px; /* Skapar luft mot footern eller nästa element */
 }
 
 .info-item {
