@@ -1,112 +1,232 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bäret Konst</title>
+    <title>Bäret Art</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="/favicon.png">
 </head>
+
 <body>
-    <!-- Header: fixerat längst upp -->
+
+    <!-- FIXERAD HEADER -->
     <header class="site-header">
         <div class="header-content">
-            <!-- Logotypen -->
-            <img src="images/logo_nobackground.png" alt="Logo" class="logo">
+            <img src="images/logo_nobackground.png" alt="Logotyp" class="logo">
             <h1>Bäret Art</h1>
         </div>
 
-        <!-- Språkknappar för svenska och engelska -->
+        <!-- Språkval -->
         <div class="language-dropdown" id="language-dropdown">
-            <!-- Länk för Svenska -->
             <a href="index.html" id="language-btn-sv" class="dropdown-btn">
                 <img src="images/sweden-flag.png" alt="Swedish" class="flag-icon"> Sv
             </a>
-            <!-- Länk för Engelska -->
             <a href="index_en.html" id="language-btn-en" class="dropdown-btn">
                 <img src="images/uk-flag.png" alt="English" class="flag-icon"> En
             </a>
         </div>
+
+        <!-- Menyn inuti headern -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index_en.html">Home</a></li>
+                <li><a href="about_en.html">About</a></li>
+                <li><a href="process_en.html">Process</a></li>
+                <li><a href="works_en.html">Artwork</a></li>
+                <li><a href="contact_en.html">Contact</a></li>
+
+            </ul>
+        </nav>
     </header>
 
-    <!-- Resten av din HTML-kod -->
-    <nav class="main-nav" id="main-nav">
-        <ul>
-            <li><a href="index_en.html">Home</a></li>
-            <li><a href="about_en.html">About me</a></li>
-            <li><a href="process_en.html">My process</a></li>
-            <li><a href="works_en.html">Artwork</a></li>
-            <li><a href="contact_en.html">Contact</a></li>
-        </ul>
-    </nav>
-
+    <!-- HERO BILD -->
     <section class="hero-image">
-        <img src="images/bg_alt_1.jpeg" alt="Hero Image">
+        <img src="images/bg_alt_2.jpeg" alt="Hero Image">
     </section>
 
+    <!-- HUVUDINNEHÅLL -->
     <main>
-        <section class="content">
-            Welcome to my world of digital art!
-            <br><br>
-            Here I explore color, form and imagination to create unique works of art that reflect both my expression and vision.
-            Look around, be inspired and discover this part of my world!
-            <br><br>
-            The website is under construction - just like my works of art - this is work in progress!
-            <br><br>
-            Below you will find a selection of the images I have created, more images with comments and thoughts can be found under "Artwork" in the menu.
+        <section class="intro-text">
+            <h2>Welcome to My World of Digital Art</h2>
+            <p>
+                Here I explore color, form, and imagination to create unique artworks that reflect both my expression
+                and vision.
+                Take a look around, find inspiration, and discover my artistic world.
+            </p>
+            <p>
+                Below is a selection of my work. Click on an image to view it in a larger format. For some artworks,
+                alternative color variations are also available to explore.
+            </p>
+        </section>
+
+        <!-- GALLERI -->
+        <section class="featured-works">
+            <div class="gallery-grid">
+
+                <div class="gallery-item">
+                    <img src="works/image_2023123012161452501_gemamber_i3.jpeg"
+                        alt="Digitalt konstverk - 2023123012161452501" class="lightbox-trigger"
+                        data-variants="works/image_2023123012161452501_gemamber_i3.jpeg, works/image_2023123012161452501_gememerald2_i3.jpeg, works/image_2023123012161452501_gemruby2_i3.jpeg, works/image_2023123012161452501_ice_i1.jpeg, works/image_2023123012161452501_pastel_i3.jpeg, works/image_2023123012161452501_sea_i3.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_2023123109332264_meadow.jpeg" alt="Digitalt konstverk - 2023123109332264"
+                        class="lightbox-trigger"
+                        data-variants="works/image_2023123109332264_meadow.jpeg, works/image_2023123109332264_tokyo_i3.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_20250804105621349_gemamber_i3.jpeg"
+                        alt="Digitalt konstverk - 20250804105621349" class="lightbox-trigger"
+                        data-variants="works/image_20250804105621349_gemamber_i3.jpeg, works/image_20250804105621349_gemruby2_i3.jpeg, works/image_20250804105621349_gemsapphire2_i3.jpeg, works/image_20250804105621349_gray.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_20230808152634419_heaven_i1.jpeg" alt="Digitalt konstverk - 20230808152634419"
+                        class="lightbox-trigger">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_202312301242433310_gemamber_i3.jpeg"
+                        alt="Digitalt konstverk - 202312301242433310" class="lightbox-trigger"
+                        data-variants="works/image_202312301242433310_gemamber_i3.jpeg, works/image_202312301242433310_gemruby2_rev_i3.jpeg, works/image_202312301242433310_gray.jpeg, works/image_202312301242433310_ice_i1.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_2023123011174444801_gemamethyst_rev_i3.jpeg"
+                        alt="Digitalt konstverk - 2023123011174444801" class="lightbox-trigger"
+                        data-variants="works/image_2023123011174444801_gemamethyst_rev_i3.jpeg, works/image_2023123011174444801_gememerald2_rev_i3.jpeg, works/image_2023123011174444801_gemruby2_rev_i3.jpeg, works/image_2023123011174444801_gemsapphire2_rev_i3.jpeg, works/image_2023123011174444801_ice_i1.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_202308042127153900_gemamethyst_rev_i3.jpeg"
+                        alt="Digitalt konstverk - 202308042127153900" class="lightbox-trigger"
+                        data-variants="works/image_202308042127153900_gemamethyst_rev_i3.jpeg, works/image_202308042127153900_gememerald2_rev_i3.jpeg, works/image_202308042127153900_gemruby2_rev_i3.jpeg, works/image_202308042127153900_gemsapphire2_rev_i3.jpeg, works/image_202308042127153900_image_aurora1_101.jpeg, works/image_202308042127153900_islands_rev_i1.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_202312301246189600_fiery_morning.jpeg"
+                        alt="Digitalt konstverk - 202312301246189600" class="lightbox-trigger"
+                        data-variants="works/image_202312301246189600_fiery_morning.jpeg, works/image_202312301246189600_gemamber_i3.jpeg, works/image_202312301246189600_gememerald2_rev_i3.jpeg, works/image_202312301246189600_gray.jpeg, works/image_202312301246189600_ice_i1.jpeg, works/image_202312301246189600_skane_i1.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_20231230100741697_church_i1.jpeg" alt="Digitalt konstverk - 20231230100741697"
+                        class="lightbox-trigger"
+                        data-variants="works/image_20231230100741697_church_i1.jpeg, works/image_20231230100741697_cold_i1.jpeg, works/image_20231230100741697_gray.jpeg, works/image_20231230100741697_lime_i1.jpeg, works/image_20231230100741697_theblackring_i1.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_202308070845029160_bigbang_i3.jpeg"
+                        alt="Digitalt konstverk - 202308070845029160" class="lightbox-trigger"
+                        data-variants="works/image_202308070845029160_bigbang_i3.jpeg, works/image_202308070845029160_image_aurora1_101.jpeg, works/image_202308070845029160_image_sahara2_101.jpeg, works/image_202308070845029160_mixedarts_i1.jpeg, works/image_202308070845029160_net_i3.jpeg, works/image_202308070845029160_scyphozoa_i1.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_20230806172843307_autumn.jpeg" alt="Digitalt konstverk - 20230806172843307"
+                        class="lightbox-trigger"
+                        data-variants="works/image_20230806172843307_autumn.jpeg, works/image_20230806172843307_meadow.jpeg, works/image_20230806172843307_pastel_i3.jpeg, works/image_20230806172843307_seasonautumn_i1.jpeg, works/image_20230806172843307_seasonspring_i1.jpeg, works/image_20230806172843307_seasonwinter_i1.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_20231230105322850_autumn.jpeg" alt="Digitalt konstverk - 20231230105322850"
+                        class="lightbox-trigger"
+                        data-variants="works/image_20231230105322850_autumn.jpeg, works/image_20231230105322850_fiery_morning.jpeg, works/image_20231230105322850_gray.jpeg, works/image_20231230105322850_interval.jpeg, works/image_20231230105322850_meadow.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_20230806171916665_alla.jpeg" alt="Digitalt konstverk - 20230806171916665"
+                        class="lightbox-trigger"
+                        data-variants="works/image_20230806171916665_alla.jpeg, works/image_20230806171916665_autumn.jpeg, works/image_20230806171916665_fiery_morning.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_20230806170554210_cyan_b_rev.jpeg"
+                        alt="Digitalt konstverk - 20230806170554210" class="lightbox-trigger"
+                        data-variants="works/image_20230806170554210_cyan_b_rev.jpeg, works/image_20230806170554210_gemamber_i3.jpeg, works/image_20230806170554210_greysun_i1.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_20230806163722812_gray.jpeg" alt="Digitalt konstverk - 20230806163722812"
+                        class="lightbox-trigger"
+                        data-variants="works/image_20230806163722812_gray.jpeg, works/image_20230806163722812_interval.jpeg, works/image_20230806163722812_starling.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_20230813195949702_fiery_morning.jpeg"
+                        alt="Digitalt konstverk - 20230813195949702" class="lightbox-trigger"
+                        data-variants="works/image_20230813195949702_fiery_morning.jpeg, works/image_20230813195949702_lux.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_20240222094814390_solarsystem_i3.jpeg"
+                        alt="Digitalt konstverk - 20240222094814390" class="lightbox-trigger">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_20250304114048213_division_rev_i1.jpeg"
+                        alt="Digitalt konstverk - 20250304114048213" class="lightbox-trigger"
+                        data-variants="works/image_20250304114048213_division_rev_i1.jpeg, works/image_20250304114048213_gemamber_i3.jpeg, works/image_20250304114048213_gemruby2_i3.jpeg, works/image_20250304114048213_gray_rev.jpeg, works/image_20250304114048213_image_fireburning_3_100_rev.jpeg, works/image_20250304114048213_islands_rev_i1.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_2025111612161141227123_gemsapphire2_i3.jpeg"
+                        alt="Digitalt konstverk - 2025111612161141227123" class="lightbox-trigger">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_202510291052129232_pinkypink_i3.jpeg"
+                        alt="Digitalt konstverk - 202510291052129232" class="lightbox-trigger"
+                        data-variants="works/image_202510291052129232_pinkypink_i3.jpeg, works/image_202510291052129232_seasonautumn_i1.jpeg, works/image_202510291052129232_seasonspring_rev_i1.jpeg, works/image_202510291052129232_seasonwinter_i1.jpeg, works/image_202510291052129232_swe_sca_i1.jpeg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/image_rain_B_DSC_0245_test_DSC_0245_test_autumn.jpeg"
+                        alt="Digitalt konstverk - rain" class="lightbox-trigger">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="works/rain_old_0005_20250318113827899_G.png" alt="Digitalt konstverk - rain old"
+                        class="lightbox-trigger">
+                </div>
+
+            </div>
+
+            <section class="cta-section">
+                <h2>Discover the Full Collection</h2>
+                <p>
+                    This is only a selection. Under <strong>Works</strong>, you will find more artworks along with
+                    comments and thoughts behind each piece.
+                </p>
+                <a href="works.html" class="cta-button">View more works in the gallery</a>
+            </section>
         </section>
     </main>
 
-    <br>
-    <img src="works/image_2023123012161452501_gemamber_i3.jpeg" class="images">
-    <br>
-    <img src="works/image_2023123109332264_meadow.jpeg" class="images">
-    <br>
-    <img src="works/image_20250804105621349_gemruby2_i3.jpeg" class="images">
-    <br>
-    <img src="works/image_20230808152634419_heaven_i1.jpeg" class="images">
-    <br>
-    <img src="works/image_rain_B_DSC_0245_test_DSC_0245_test_autumn.jpeg" class="images">
-    <br>
-    <img src="works/image_202312301242433310_ice_i1.jpeg" class="images">
-    <br>
-    <img src="works/image_2023123011174444801_gemamethyst_rev_i3.jpeg" class="images">
-    <br>
-    <img src="works/image_202510291052129232_pinkypink_i3.jpeg" class="images">
-    <br>
-    <img src="works/rain_old_0005_20250318113827899_G.png" class="images">
-    <br>
-    <img src="works/image_202308042127153900_gemsapphire2_rev_i3.jpeg" class="images">
-    <br>
-    <img src="works/image_202312301246189600_ice_i1.jpeg" class="images">
-    <br>
-    <img src="works/image_20231230100741697_theblackring_i1.jpeg" class="images">
-    <br>
-    <img src="works/image_202308070845029160_net_i3.jpeg" class="images">
-    <br>
-    <img src="works/image_20230806172843307_seasonautumn_i1.jpeg" class="images">
-    <br>
-    <img src="works/image_20231230105322850_interval.jpeg" class="images">
-    <br>
-    <img src="works/image_20230806171916665_alla.jpeg" class="images">
-    <br>
-    <img src="works/image_20230806170554210_gemamber_i3.jpeg" class="images">
-    <br>
-    <img src="works/image_20230806163722812_interval.jpeg" class="images">
-    <br>
-    <img src="works/image_20230813195949702_lux.jpeg" class="images">
-    <br>
-    <img src="works/image_20240222094814390_solarsystem_i3.jpeg" class="images">
-    <br>
-    <img src="works/image_20250304114048213_islands_rev_i1.jpeg" class="images">
-    <br>
-    <img src="works/image_2025111612161141227123_gemsapphire2_i3.jpeg" class="images">
-    <br>
-
     <footer class="site-footer">
-        <p>&copy Bäret Konst 2025. All Rights Reserved. Web Design by Bäret Konst.</p>
+        <p>&copy; Bäret Konst 2025. All Rights Reserved. Web Design by Bäret Konst.</p>
     </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+
+        <div class="lightbox-wrapper">
+            <!-- Vänster/Mitten: Huvudbild och text -->
+            <div class="lightbox-main">
+                <img class="lightbox-content" id="lightbox-img" alt="">
+                <div class="lightbox-caption" id="lightbox-caption"></div>
+            </div>
+
+            <!-- Höger: Miniatyrer för färgvarianter -->
+            <div class="lightbox-sidebar" id="lightbox-sidebar">
+                <!-- Färgvarianter läggs till dynamiskt via JS här -->
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>

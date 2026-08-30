@@ -119,3 +119,88 @@ window.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+    const lightboxSidebar = document.getElementById('lightbox-sidebar');
+    const closeBtn = document.querySelector('.lightbox-close');
+
+    // Klick på galleribilder
+    document.querySelectorAll('.lightbox-trigger').forEach(img => {
+        img.addEventListener('click', () => {
+            const currentSrc = img.getAttribute('src');
+            const altText = img.getAttribute('alt');
+            
+            lightboxImg.src = currentSrc;
+            lightboxCaption.textContent = altText;
+            lightboxSidebar.innerHTML = ''; // Rensa gamla miniatyrer
+
+            // Kolla om det finns varianter angivna
+            const variantsData = img.getAttribute('data-variants');
+            
+            if (variantsData) {
+                const variants = variantsData.split(',').map(v => v.trim());
+
+                variants.forEach(variantSrc => {
+                    const thumb = document.createElement('img');
+                    thumb.src = variantSrc;
+                    thumb.classList.add('lightbox-thumb');
+
+                    // Markera aktiv miniatyr
+                    if (variantSrc === currentSrc) {
+                        thumb.classList.add('active');
+                    }
+
+                    // Klick på miniatyr ändrar huvudbilden
+                    thumb.addEventListener('click', (e) => {
+                        e.stopPropagation(); // Förhindra att stänga lightboxen
+                        lightboxImg.src = variantSrc;
+                        
+                        // Uppdatera aktiv-klass på miniatyrer
+                        document.querySelectorAll('.lightbox-thumb').forEach(t => t.classList.remove('active'));
+                        thumb.classList.add('active');
+                    });
+
+                    lightboxSidebar.appendChild(thumb);
+                });
+            }
+
+            lightbox.style.display = 'block';
+        });
+    });
+
+    // Stäng lightbox vid klick på kryss eller utanför bilden
+    closeBtn.addEventListener('click', () => {
+        lightbox.style.display = 'none';
+    });
+
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox || e.target.classList.contains('lightbox-wrapper')) {
+            lightbox.style.display = 'none';
+        }
+    });
+});
