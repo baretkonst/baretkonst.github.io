@@ -51,8 +51,6 @@ main {
     align-items: center;
 }
 
-
-
 .header-content {
     display: flex;
     flex-direction: column;
@@ -431,7 +429,8 @@ main, .hero-image {
 }
 
 .info-item {
-    background-color: rgb(255, 252, 247);
+    background-color: #dbd5ec;
+    color: #010028;
     padding: 20px 30px;
     border-radius: 3px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
@@ -439,7 +438,7 @@ main, .hero-image {
     min-width: 280px;
     max-width: 90%;
     margin: 0 auto;
-    border: 2px solid rgb(226, 226, 226);
+    border: 2px solid #010028;
     text-align: center;
 }
 
