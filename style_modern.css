@@ -135,7 +135,7 @@ h1 {
 .main-nav {
     position: sticky;
     top: 148px; /* Stannar precis under headern */
-    background-color: #0b0127; /*  rgb(14, 6, 49);*/
+    background-color: #010028; /*  rgb(14, 6, 49);*/
     color: black;
     padding: 10px 0;
     margin: 2;
@@ -163,7 +163,7 @@ h1 {
 }
 
 .main-nav ul li a:hover {
-    background-color: #e230ad;
+    background-color: #96b1c4;
     color: white;
 }
 
