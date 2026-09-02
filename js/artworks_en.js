@@ -1523,10 +1523,10 @@ const artworksData = [
     "number": "20230806171916665",
     "main": false,
     "pinned": false,
-    "filename": "works/image_20230806171916665_alla.jpeg",
-    "alt": "Generativt konstverk - Image 20230806171916665 Alla",
-    "title": "Image 20230806171916665 Alla",
-    "colorscale": "Alla",
+    "filename": "works/image_20230806171916665_neon_spike.jpeg",
+    "alt": "Generativt konstverk - Image 20230806171916665 Neon spike",
+    "title": "Image 20230806171916665 Neon spike",
+    "colorscale": "Neon spike",
     "comment": ""
   },
   {
@@ -1793,10 +1793,10 @@ const artworksData = [
     "number": "20230806192615888",
     "main": false,
     "pinned": false,
-    "filename": "works/image_20230806192615888_barbie_i1.jpeg",
-    "alt": "Generativt konstverk - Image 20230806192615888 Barbie I1",
-    "title": "Image 20230806192615888 Barbie I1",
-    "colorscale": "Barbie",
+    "filename": "works/image_20230806192615888_pink_doll_i1.jpeg",
+    "alt": "Generativt konstverk - Image 20230806192615888 Pink doll I1",
+    "title": "Image 20230806192615888 Pink doll I1",
+    "colorscale": "Pink doll",
     "comment": ""
   },
   {
@@ -2123,10 +2123,10 @@ const artworksData = [
     "number": "20230807084117977",
     "main": true,
     "pinned": false,
-    "filename": "works/image_20230807084117977_barbie_i1.jpeg",
-    "alt": "Generativt konstverk - Image 20230807084117977 Barbie I1",
-    "title": "Image 20230807084117977 Barbie I1",
-    "colorscale": "Barbie",
+    "filename": "works/image_20230807084117977_pink_doll_i1.jpeg",
+    "alt": "Generativt konstverk - Image 20230807084117977 Pink doll I1",
+    "title": "Image 20230807084117977 Pink doll I1",
+    "colorscale": "Pink doll",
     "comment": ""
   },
   {

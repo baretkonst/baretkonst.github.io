@@ -544,10 +544,10 @@ const artworksData = [
     "number": "20230806171916665",
     "main": false,
     "pinned": false,
-    "filename": "works/image_20230806171916665_alla.jpeg",
-    "alt": "Generativt konstverk - Image 20230806171916665 Alla",
-    "title": "Image 20230806171916665 Alla",
-    "colorscale": "Alla",
+    "filename": "works/image_20230806171916665_neon_spike.jpeg",
+    "alt": "Generativt konstverk - Image 20230806171916665 Neon spike",
+    "title": "Image 20230806171916665 Neon spike",
+    "colorscale": "Neon spike",
     "comment": ""
   },
   {
