@@ -414,7 +414,7 @@ main, .hero-image {
     margin-right: auto;
     width: 40%;
     height: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-bottom: 20px; /* Skapar luft mot footern eller nästa element */
 }
 
@@ -550,4 +550,17 @@ main, .hero-image {
         max-height: none;
         overflow-x: auto;
     }
+}
+
+.content h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.content h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
