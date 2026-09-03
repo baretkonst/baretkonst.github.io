@@ -274,10 +274,10 @@ const artworksData = [
     "number": "202308042127153900",
     "main": false,
     "pinned": false,
-    "filename": "works/image_202308042127153900_image_aurora1_101.jpeg",
-    "alt": "Generativt konstverk - Image 202308042127153900 Image Aurora1 101",
-    "title": "Image 202308042127153900 Image Aurora1 101",
-    "colorscale": "Image Aurora1 101",
+    "filename": "works/image_202308042127153900_aurora_img_101.jpeg",
+    "alt": "Generativt konstverk - Image 202308042127153900 Aurora Img 101",
+    "title": "Image 202308042127153900 Aurora Img 101",
+    "colorscale": "Aurora Img 101",
     "comment": ""
   },
   {
@@ -404,20 +404,20 @@ const artworksData = [
     "number": "202308070845029160",
     "main": true,
     "pinned": true,
-    "filename": "works/image_202308070845029160_image_aurora1_101.jpeg",
-    "alt": "Generativt konstverk - Image 202308070845029160 Image Aurora1 101",
-    "title": "Image 202308070845029160 Image Aurora1 101",
-    "colorscale": "Image Aurora1 101",
+    "filename": "works/image_202308070845029160_aurora_img_101.jpeg",
+    "alt": "Generativt konstverk - Image 202308070845029160 Aurora Img 101",
+    "title": "Image 202308070845029160 Aurora Img 101",
+    "colorscale": "Aurora Img 101",
     "comment": ""
   },
   {
     "number": "202308070845029160",
     "main": false,
     "pinned": true,
-    "filename": "works/image_202308070845029160_image_sahara2_101.jpeg",
-    "alt": "Generativt konstverk - Image 202308070845029160 Image Sahara2 101",
-    "title": "Image 202308070845029160 Image Sahara2 101",
-    "colorscale": "Image Sahara2 101",
+    "filename": "works/image_202308070845029160_hot_nights_img_101.jpeg",
+    "alt": "Generativt konstverk - Image 202308070845029160 Hot Nights Img 101",
+    "title": "Image 202308070845029160 Hot Nights Img 101",
+    "colorscale": "Hot Nights Img 101",
     "comment": ""
   },
   {
@@ -714,10 +714,10 @@ const artworksData = [
     "number": "20250304114048213",
     "main": false,
     "pinned": false,
-    "filename": "works/image_20250304114048213_image_fireburning_3_100_rev.jpeg",
-    "alt": "Generativt konstverk - Image 20250304114048213 Image Fireburning 3 100 Rev",
-    "title": "Image 20250304114048213 Image Fireburning 3 100 Rev",
-    "colorscale": "Image Fireburning 3 100",
+    "filename": "works/image_20250304114048213_fire_burning_img_3_100_rev.jpeg",
+    "alt": "Generativt konstverk - Image 20250304114048213 Image Fireburning Img 3 100 Rev",
+    "title": "Image 20250304114048213 Image Fireburning Img 3 100 Rev",
+    "colorscale": "Image Fireburning Img 3 100",
     "comment": ""
   },
   {
