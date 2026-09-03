@@ -1943,10 +1943,10 @@ const artworksData = [
     "number": "20230806200350568",
     "main": true,
     "pinned": false,
-    "filename": "works/image_20230806200350568_sweden_light.jpeg",
-    "alt": "Generativt konstverk - Image 20230806200350568 Sweden Light",
-    "title": "Image 20230806200350568 Sweden Light",
-    "colorscale": "Sweden Light",
+    "filename": "works/image_20230806200350568_sol_och_vatten.jpeg",
+    "alt": "Generativt konstverk - Image 20230806200350568 Sol och vatten",
+    "title": "Image 20230806200350568 Sol och vatten",
+    "colorscale": "Sol och vatten",
     "comment": ""
   },
   {
@@ -2323,10 +2323,10 @@ const artworksData = [
     "number": "20230813195117385",
     "main": true,
     "pinned": false,
-    "filename": "works/image_20230813195117385_gememerald_i3.jpeg",
-    "alt": "Generativt konstverk - Image 20230813195117385 Gememerald I3",
-    "title": "Image 20230813195117385 Gememerald I3",
-    "colorscale": "Gememerald",
+    "filename": "works/image_20230813195117385_in_the_rough_i3.jpeg",
+    "alt": "Generativt konstverk - Image 20230813195117385 In the rough I3",
+    "title": "Image 20230813195117385 In the rough I3",
+    "colorscale": "In the rough",
     "comment": ""
   },
   {
@@ -3143,10 +3143,10 @@ const artworksData = [
     "number": "20240222094835374",
     "main": false,
     "pinned": false,
-    "filename": "works/image_20240222094835374_sweden_light.jpeg",
-    "alt": "Generativt konstverk - Image 20240222094835374 Sweden Light",
-    "title": "Image 20240222094835374 Sweden Light",
-    "colorscale": "Sweden Light",
+    "filename": "works/image_20240222094835374_sol_och_vatten.jpeg",
+    "alt": "Generativt konstverk - Image 20240222094835374 Sol och vatten",
+    "title": "Image 20240222094835374 Sol och vatten",
+    "colorscale": "Sol och vatten",
     "comment": ""
   },
   {
@@ -3203,10 +3203,10 @@ const artworksData = [
     "number": "20240223083013649",
     "main": false,
     "pinned": false,
-    "filename": "works/image_20240223083013649_pinksea_rev.jpeg",
-    "alt": "Generativt konstverk - Image 20240223083013649 Pinksea Rev",
-    "title": "Image 20240223083013649 Pinksea Rev",
-    "colorscale": "Pinksea",
+    "filename": "works/image_20240223083013649_pink_sea_rev.jpeg",
+    "alt": "Generativt konstverk - Image 20240223083013649 Pink sea Rev",
+    "title": "Image 20240223083013649 Pink sea Rev",
+    "colorscale": "Pink sea",
     "comment": ""
   },
   {
@@ -3283,10 +3283,10 @@ const artworksData = [
     "number": "20250218084314802",
     "main": false,
     "pinned": false,
-    "filename": "works/image_20250218084314802_blueberryfields_i1.jpeg",
-    "alt": "Generativt konstverk - Image 20250218084314802 Blueberryfields I1",
-    "title": "Image 20250218084314802 Blueberryfields I1",
-    "colorscale": "Blueberryfields",
+    "filename": "works/image_20250218084314802_blueberry_fields_i1.jpeg",
+    "alt": "Generativt konstverk - Image 20250218084314802 Blueberry fields I1",
+    "title": "Image 20250218084314802 Blueberry fields I1",
+    "colorscale": "Blueberry fields",
     "comment": ""
   },
   {
@@ -3333,20 +3333,20 @@ const artworksData = [
     "number": "20250218084314802",
     "main": false,
     "pinned": false,
-    "filename": "works/image_20250218084314802_sweden_light_rev.jpeg",
-    "alt": "Generativt konstverk - Image 20250218084314802 Sweden Light Rev",
-    "title": "Image 20250218084314802 Sweden Light Rev",
-    "colorscale": "Sweden Light",
+    "filename": "works/image_20250218084314802_sol_och_vatten_rev.jpeg",
+    "alt": "Generativt konstverk - Image 20250218084314802 Sol och vatten Rev",
+    "title": "Image 20250218084314802 Sol och vatten Rev",
+    "colorscale": "Sol och vatten",
     "comment": ""
   },
   {
     "number": "20250218085348455",
     "main": true,
     "pinned": false,
-    "filename": "works/image_20250218085348455_sweden_light_rev.jpeg",
-    "alt": "Generativt konstverk - Image 20250218085348455 Sweden Light Rev",
-    "title": "Image 20250218085348455 Sweden Light Rev",
-    "colorscale": "Sweden Light",
+    "filename": "works/image_20250218085348455_sol_och_vatten_rev.jpeg",
+    "alt": "Generativt konstverk - Image 20250218085348455 Sol och vatten Rev",
+    "title": "Image 20250218085348455 Sol och vatten Rev",
+    "colorscale": "Sol och vatten",
     "comment": ""
   },
   {
@@ -3843,10 +3843,10 @@ const artworksData = [
     "number": "202510291052129232",
     "main": false,
     "pinned": false,
-    "filename": "works/image_202510291052129232_sweden_sca_i1.jpeg",
-    "alt": "Generativt konstverk - Image 202510291052129232 Sweden Sca I1",
-    "title": "Image 202510291052129232 Sweden Sca I1",
-    "colorscale": "Sweden Sca",
+    "filename": "works/image_202510291052129232_inbetween_i1.jpeg",
+    "alt": "Generativt konstverk - Image 202510291052129232 Inbetween I1",
+    "title": "Image 202510291052129232 Inbetween I1",
+    "colorscale": "Inbetween",
     "comment": ""
   },
   {
