@@ -3,31 +3,37 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     max-width: 100%;
-    overflow-x: hidden; /* Förhindrar horisontell sidscroll på mobilen */
+    overflow-x: hidden;
+    /* Förhindrar horisontell sidscroll på mobilen */
 }
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    padding-top: 198px; /* Anpassat efter den fixerade headerns höjd */
+    padding-top: 198px;
+    /* Anpassat efter den fixerade headerns höjd */
     background-color: #fefefe;
 
     /* Flexbox för Sticky Footer */
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* 100% av viewport-höjden */
+    min-height: 100vh;
+    /* 100% av viewport-höjden */
 }
 
 img {
-    max-width: 100%;    /* Förhindrar att bilder sticker ut utanför skärmen */
+    max-width: 100%;
+    /* Förhindrar att bilder sticker ut utanför skärmen */
     height: auto;
 }
 
 main {
-    flex: 1; /* Trycker ned footern till botten om innehållet är kort */
+    flex: 1;
+    /* Trycker ned footern till botten om innehållet är kort */
 }
 
 /* --- FIXERAD HEADER & NAVIGERING --- */
@@ -38,11 +44,14 @@ main {
     left: 0;
     width: 100%;
     /* Bakgrundsbild inställningar */
-    background-image: url('images/sky.jpeg'); /* Byt ut mot sökvägen till din bild */
-    background-size: cover;      /* Gör att bilden täcker hela headern */
-    background-position: center; /* Centrerar bilden i headern */
+    background-image: url('images/sky.jpeg');
+    /* Byt ut mot sökvägen till din bild */
+    background-size: cover;
+    /* Gör att bilden täcker hela headern */
+    background-position: center;
+    /* Centrerar bilden i headern */
     background-repeat: no-repeat;
-    
+
     color: black;
     padding: 30px 0 0 0;
     z-index: 1000;
@@ -57,7 +66,8 @@ main {
     align-items: center;
     position: relative;
     z-index: 1;
-    margin-bottom: 45px; /* Avstånd ner till menyn */
+    margin-bottom: 45px;
+    /* Avstånd ner till menyn */
 }
 
 .logo {
@@ -80,8 +90,10 @@ h1 {
     top: 15px;
     right: 15px;
     display: flex;
-    flex-direction: column; /* Gör att alternativen hamnar under varandra */
-    align-items: flex-end;  /* Högerställer länkarna så de ligger snyggt längst till höger */
+    flex-direction: column;
+    /* Gör att alternativen hamnar under varandra */
+    align-items: flex-end;
+    /* Högerställer länkarna så de ligger snyggt längst till höger */
     gap: 5px;
 }
 
@@ -97,7 +109,7 @@ h1 {
 }
 
 .flag-icon {
-    width: 20px; 
+    width: 20px;
     height: 15px;
 }
 
@@ -161,7 +173,8 @@ h1 {
 }
 
 /* --- HERO IMAGE --- */
-main, .hero-image {
+main,
+.hero-image {
     margin-top: 0;
     padding-top: 0;
 }
@@ -207,7 +220,8 @@ main, .hero-image {
     padding: 15px;
     border-radius: 3px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-    width: 30%;  /* Sätt bredden på varje ruta till 30% av sidans bredd på dator */
+    width: 30%;
+    /* Sätt bredden på varje ruta till 30% av sidans bredd på dator */
     margin: 0 auto;
     border: 2px solid rgb(226, 226, 226);
     text-align: left;
@@ -225,7 +239,7 @@ main, .hero-image {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     margin-top: 20px;
-    align-items: start; 
+    align-items: start;
 }
 
 .gallery-item {
@@ -236,14 +250,16 @@ main, .hero-image {
 
 
 .gallery-item:hover {
-  transform: translateY(-6px) scale(1.02); /* "Sväv"-effekten uppåt och obetydligt större */
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5); /* Djupare skugga under bilden */
+    transform: translateY(-6px) scale(1.02);
+    /* "Sväv"-effekten uppåt och obetydligt större */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+    /* Djupare skugga under bilden */
 }
 
 .gallery-item img {
     width: 100%;
-    height: auto; 
-    object-fit: contain; 
+    height: auto;
+    object-fit: contain;
     display: block;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -262,7 +278,7 @@ main, .hero-image {
     max-width: 700px;
     margin: 80px auto 40px auto;
     padding: 0 20px;
-    
+
 }
 
 .cta-section h2 {
@@ -295,8 +311,13 @@ main, .hero-image {
 }
 
 @keyframes zoom {
-    from { transform: scale(0); }
-    to { transform: scale(1); }
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }
 
 /* --- LIGHTBOX MED MINIATYRFÄLT --- */
@@ -413,7 +434,8 @@ main, .hero-image {
     width: 80%;
     height: auto;
     border: 1px solid black;
-    margin-bottom: 20px; /* Skapar luft mot footern eller nästa element */
+    margin-bottom: 20px;
+    /* Skapar luft mot footern eller nästa element */
 }
 
 .images {
@@ -423,7 +445,8 @@ main, .hero-image {
     width: 40%;
     height: auto;
     border: 0px solid black;
-    margin-bottom: 20px; /* Skapar luft mot footern eller nästa element */
+    margin-bottom: 20px;
+    /* Skapar luft mot footern eller nästa element */
 }
 
 .images_small {
@@ -433,7 +456,8 @@ main, .hero-image {
     width: 25%;
     height: auto;
     border: 1px solid black;
-    margin-bottom: 20px; /* Skapar luft mot footern eller nästa element */
+    margin-bottom: 20px;
+    /* Skapar luft mot footern eller nästa element */
 }
 
 .info-item {
@@ -473,7 +497,7 @@ main, .hero-image {
     margin: 0 auto;
     width: 100%;
 }
-  
+
 .centered-table td {
     padding: 10px;
     text-align: center;
@@ -505,9 +529,10 @@ main, .hero-image {
         margin: 0 5px;
     }
 
-    main {
-        padding-top: 50px;
-    }
+#gallery,
+  .content {
+    padding-top: 60px; /* Justera detta värde beroende på hur hög din header är */
+  }
 
     .main-nav ul li a {
         padding: 8px 12px;
@@ -515,7 +540,7 @@ main, .hero-image {
     }
 
     /* Gör textblock och rutor 100% breda så de inte sticker ut */
-    .content, 
+    .content,
     .works,
     .works-item,
     .intro-text,
@@ -527,8 +552,8 @@ main, .hero-image {
     }
 
     /* Bild- och tabellanpassningar för mobil */
-    .images, 
-    .images_large, 
+    .images,
+    .images_large,
     .images_small {
         width: 100%;
     }
@@ -554,9 +579,11 @@ main, .hero-image {
     .lightbox-wrapper {
         flex-direction: column;
     }
+
     .lightbox-main {
         max-width: 100%;
     }
+
     .lightbox-sidebar {
         flex-direction: row;
         max-height: none;
@@ -595,123 +622,106 @@ main, .hero-image {
 
 /* Sidopanel: Lägger miniatyrer och inforuta bredvid varandra */
 .lightbox-sidebar {
-  display: flex;
-  flex-direction: row; /* Placerar barn-elementen horisontellt */
-  align-items: flex-start;
-  gap: 20px;
-  padding-left: 20px;
-  border-left: 1px solid rgba(255, 255, 255, 0.15);
+    display: flex;
+    flex-direction: row;
+    /* Placerar barn-elementen horisontellt */
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 /* Lodrät stapel för alternativbilderna */
 .lightbox-thumbs-box {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  min-width: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 70px;
 }
 
 .lightbox-thumb {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  cursor: pointer;
-  opacity: 0.5;
-  border: 1px solid transparent;
-  transition: opacity 0.2s, border-color 0.2s;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.5;
+    border: 1px solid transparent;
+    transition: opacity 0.2s, border-color 0.2s;
 }
 
-.lightbox-thumb.active, .lightbox-thumb:hover {
-  opacity: 1;
-  border-color: #ffffff;
+.lightbox-thumb.active,
+.lightbox-thumb:hover {
+    opacity: 1;
+    border-color: #ffffff;
 }
 
 /* Knappen under bilden */
 .print-info-btn {
-  margin-top: 15px;
-  padding: 8px 14px;
-  background-color: transparent;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-  cursor: pointer;
-  font-size: 0.85rem;
-  transition: all 0.2s ease;
+    margin-top: 15px;
+    padding: 8px 14px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
 }
 
 .print-info-btn.active {
-  background-color: #ffffff;
-  color: #000000;
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
-  font-weight: bold;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
 }
 
 /* Pris- och inforutan hamnar nu TILL HÖGER om miniatyrerna */
 .lightbox-print-container {
-  min-width: 220px;
-  max-width: 260px;
+    min-width: 220px;
+    max-width: 260px;
 }
 
 .print-info-card {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 15px;
-  font-size: 0.85rem;
-  color: #dddddd;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    font-size: 0.85rem;
+    color: #dddddd;
 }
 
 .price-highlight {
-  font-size: 1.05rem;
-  color: #ffffff;
-  margin: 8px 0;
+    font-size: 1.05rem;
+    color: #ffffff;
+    margin: 8px 0;
 }
 
 .default-price-list {
-  padding-left: 18px;
-  margin: 8px 0;
+    padding-left: 18px;
+    margin: 8px 0;
 }
 
 .specs-text {
-  font-size: 0.8rem;
-  line-height: 1.4;
-  margin: 10px 0;
-  opacity: 0.85;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    margin: 10px 0;
+    opacity: 0.85;
 }
 
 .note-text {
-  margin-bottom: 12px;
-  opacity: 0.6;
+    margin-bottom: 12px;
+    opacity: 0.6;
 }
 
 .print-mail-btn {
-  display: block;
-  text-align: center;
-  padding: 8px;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 0.85rem;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.85rem;
 }
 
 .print-mail-btn:hover {
-  background-color: #ffffff;
-  color: #000000;
+    background-color: #ffffff;
+    color: #000000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
