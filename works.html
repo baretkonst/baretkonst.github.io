@@ -68,7 +68,6 @@
     <p>&copy Bäret Konst 2025. Alla rättigheter förbehållna. Webbdesign av Bäret Konst.</p>
   </footer>
 
-
   <!-- LIGHTBOX MED SIDOPANEL FÖR VARIANTER -->
   <div id="lightbox" class="lightbox" style="display: none;">
     <span class="lightbox-close">&times;</span>
@@ -79,21 +78,21 @@
         <img class="lightbox-content" id="lightbox-img" alt="">
         <div class="lightbox-caption" id="lightbox-caption">
           <h3 id="lightbox-title"></h3>
-          <!-- Kommentar hamnar överst av brödtexten -->
           <p id="lightbox-comment" class="lightbox-comment" style="display: none;"></p>
-          <!-- Färgskala hamnar nu under kommentaren -->
           <p id="lightbox-colorscale" class="lightbox-colorscale"></p>
+
+          <!-- Toggle-knapp för prisinfo -->
+          <button id="lightbox-print-btn" class="print-info-btn">Köp utskrift / Pris</button>
         </div>
       </div>
 
-      <!-- Höger: Miniatyrer för färgvarianter -->
+      <!-- Höger: Miniatyrer och prisruta sida vid sida -->
       <div class="lightbox-sidebar" id="lightbox-sidebar">
-        <!-- Färgvarianter läggs till dynamiskt via JS här -->
+        <div id="lightbox-thumbs-box" class="lightbox-thumbs-box"></div>
+        <div id="lightbox-print-container" class="lightbox-print-container"></div>
       </div>
     </div>
   </div>
-
-
 
   <script src="script.js"></script>
 </body>

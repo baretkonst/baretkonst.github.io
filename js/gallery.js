@@ -1,81 +1,79 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const gallery = document.getElementById("gallery");
+let isPrintInfoActive = false;
 
-  // Avbryt om galleri-elementet saknas eller om artworksData inte laddats in
-  if (!gallery || typeof artworksData === "undefined") return;
+document.addEventListener("DOMContentLoaded", function () {
+  var gallery = document.getElementById("gallery");
 
-  // 1. Rensa galleriet före uppbyggnad
-  gallery.innerHTML = "";
-
-  // 2. Filtrera ut enbart huvudbilder (main: true) för galleri-gridet
-  const mainArtworks = artworksData.filter(art => art.main !== false);
-
-  // 3. Generera bilderna i galleriet
-  mainArtworks.forEach((art) => {
-    const img = document.createElement("img");
-    img.src = art.filename;
-    img.alt = art.alt;
-    img.loading = "lazy";
-    img.classList.add("gallery-item");
-
-    // När man klickar på en bild öppnas lightboxen för hela serien
-    img.addEventListener("click", () => {
-      openLightboxGroup(art.number, art);
+  if (gallery && typeof artworksData !== "undefined") {
+    gallery.innerHTML = "";
+    
+    // Hämta endast huvudbilderna för galleriet
+    var mainArtworks = artworksData.filter(function (art) {
+      return art.main !== false;
     });
 
-    gallery.appendChild(img);
+    mainArtworks.forEach(function (art) {
+      var img = document.createElement("img");
+      img.src = art.filename;
+      img.alt = art.alt || "";
+      img.loading = "lazy";
+      img.classList.add("gallery-item");
+
+      img.addEventListener("click", function () {
+        isPrintInfoActive = false;
+        openLightboxGroup(art.number, art);
+      });
+
+      gallery.appendChild(img);
+    });
+  }
+
+  // Stäng lightbox vid klick på bakgrund eller kryss
+  var lightbox = document.getElementById("lightbox");
+  document.addEventListener("click", function (e) {
+    if (e.target.classList.contains("lightbox-close") || e.target === lightbox) {
+      if (lightbox) lightbox.style.display = "none";
+    }
   });
-
-  // 4. Hantera stängning av lightbox
-  const lightbox = document.getElementById("lightbox");
-  const closeBtn = document.querySelector(".lightbox-close");
-
-  if (closeBtn && lightbox) {
-    closeBtn.addEventListener("click", () => {
-      lightbox.style.display = "none";
-    });
-  }
-
-  // Stäng lightbox om man klickar utanför innehållet (på bakgrunden)
-  if (lightbox) {
-    lightbox.addEventListener("click", (e) => {
-      if (e.target === lightbox) {
-        lightbox.style.display = "none";
-      }
-    });
-  }
 });
 
-/**
- * Öppnar lightboxen och uppdaterar innehåll samt sidopanel för varianter.
- * @param {string} groupNumber - Tidsstämpeln/serienumret för verket.
- * @param {Object} activeArt - Det specifika konstverksobjektet som ska visas stort.
- */
+// Hjälpfunktion för att formattera färgskalan ("Rev" -> "(Omvänd)")
+function formatColorscale(scaleStr) {
+  if (!scaleStr) return "";
+  var trimmed = scaleStr.trim();
+  // Kollar om strängen slutar på "Rev" (oavsett stora/små bokstäver)
+  if (/Rev$/i.test(trimmed)) {
+    var cleaned = trimmed.replace(/Rev$/i, "").trim();
+    return cleaned + " (Omvänd)";
+  }
+  return trimmed;
+}
+
 function openLightboxGroup(groupNumber, activeArt) {
-  const lightbox = document.getElementById("lightbox");
-  const lightboxImg = document.getElementById("lightbox-img");
-  const titleEl = document.getElementById("lightbox-title");
-  const colorscaleEl = document.getElementById("lightbox-colorscale");
-  const commentEl = document.getElementById("lightbox-comment");
-  const lightboxSidebar = document.getElementById("lightbox-sidebar");
+  var lightbox = document.getElementById("lightbox");
+  var lightboxImg = document.getElementById("lightbox-img");
+  var titleEl = document.getElementById("lightbox-title");
+  var colorscaleEl = document.getElementById("lightbox-colorscale");
+  var commentEl = document.getElementById("lightbox-comment");
+  
+  var printBtn = document.getElementById("lightbox-print-btn");
+  var printContainer = document.getElementById("lightbox-print-container");
+  var thumbsBox = document.getElementById("lightbox-thumbs-box");
 
   if (!lightbox || !lightboxImg) return;
 
-  // 1. Uppdatera den stora bilden
+  // 1. Sätt bild och texter för den valda varianten
   lightboxImg.src = activeArt.filename;
-  lightboxImg.alt = activeArt.alt;
+  lightboxImg.alt = activeArt.alt || "";
 
-  // 2. Uppdatera titel och färgskala
-  if (titleEl) {
-    titleEl.textContent = activeArt.title || "";
-  }
+  if (titleEl) titleEl.textContent = activeArt.title || "";
+  
   if (colorscaleEl) {
-    colorscaleEl.textContent = activeArt.colorscale 
-      ? `Färgskala: ${activeArt.colorscale}` 
+    var formattedScale = formatColorscale(activeArt.colorscale);
+    colorscaleEl.textContent = formattedScale 
+      ? "Färgskala: " + formattedScale 
       : "";
   }
 
-  // 3. Hantera kommentar (visa endast om den innehåller text)
   if (commentEl) {
     if (activeArt.comment && activeArt.comment.trim() !== "") {
       commentEl.textContent = activeArt.comment;
@@ -86,42 +84,97 @@ function openLightboxGroup(groupNumber, activeArt) {
     }
   }
 
-  // 4. Hämta alla färgvarianter som tillhör samma bildserie/nummer
-  const variants = artworksData.filter(art => art.number === groupNumber);
+  // 2. Rendera pris/inforutan baserat på om den är såld eller inte
+  function renderPrintInfo() {
+    if (!printContainer || !printBtn) return;
 
-  // 5. Bygg upp sidopanelen med miniatyrer för alla varianter
-  if (lightboxSidebar) {
-    lightboxSidebar.innerHTML = "";
+    if (isPrintInfoActive) {
+      printBtn.classList.add("active");
 
-    // Om det finns fler än 1 variant i serien visar vi sidopanelen
+      // Om bilden är markerad som såld
+      if (activeArt.sold === true) {
+        printContainer.innerHTML = 
+          '<div class="print-info-card">' +
+            '<p class="price-highlight"><strong>Såld</strong></p>' +
+          '</div>';
+      } else {
+        // Om den inte är såld (false eller saknas)
+        var rawPrice = (activeArt.price !== undefined && activeArt.price !== null)
+          ? String(activeArt.price).trim() 
+          : "";
+
+        var priceText = rawPrice !== "" ? rawPrice : "Pris på förfrågan";
+        
+        // Dynamisk rad för år (visas endast om 'year' finns i artworksData)
+        var yearHTML = activeArt.year ? '<strong>År:</strong> ' + activeArt.year + '<br>' : '';
+
+        printContainer.innerHTML = 
+          '<div class="print-info-card">' +
+            '<h4>Tryckinformation</h4>' +
+            '<p class="price-highlight"><strong>Pris:</strong> ' + priceText + '</p>' +
+            '<p class="specs-text">' +
+              yearHTML +
+              '<strong>Tryck:</strong> Epson SC-P900<br>' +
+              '<strong>Papper:</strong> Fine Art Cotton Textured Natural II (300 g/m²)' +
+            '</p>' +
+            '<p class="note-text"><small>' +
+              'Signeras på baksidan vid förfrågan.<br>' +
+              'Levereras oramad.<br>' +
+              'Anpassad inramning kan ordnas på förfrågan.' +
+            '</small></p>' +
+          '</div>';
+      }
+    } else {
+      printBtn.classList.remove("active");
+      printContainer.innerHTML = "";
+    }
+  }
+
+  // 3. Knappklick
+  if (printBtn) {
+    printBtn.onclick = function (e) {
+      e.stopPropagation();
+      isPrintInfoActive = !isPrintInfoActive;
+      renderPrintInfo();
+    };
+  }
+
+  renderPrintInfo();
+
+  // 4. Bygg miniatyrer
+  var variants = artworksData.filter(function (art) {
+    return art.number === groupNumber;
+  });
+
+  if (thumbsBox) {
+    thumbsBox.innerHTML = "";
+
     if (variants.length > 1) {
-      lightboxSidebar.style.display = "flex";
+      thumbsBox.style.display = "flex";
 
-      variants.forEach((variant) => {
-        const thumb = document.createElement("img");
+      variants.forEach(function (variant) {
+        var thumb = document.createElement("img");
         thumb.src = variant.filename;
-        thumb.alt = variant.alt;
-        thumb.title = variant.colorscale ? `Färgskala: ${variant.colorscale}` : "";
+        thumb.alt = variant.alt || "";
+        
+        var thumbScale = formatColorscale(variant.colorscale);
+        thumb.title = thumbScale ? "Färgskala: " + thumbScale : "";
         thumb.classList.add("lightbox-thumb");
 
-        // Markera den aktiva bilden i sidopanelen
         if (variant.filename === activeArt.filename) {
           thumb.classList.add("active");
         }
 
-        // Klick på en miniatyr byter den aktiva bilden i lightboxen
-        thumb.addEventListener("click", () => {
+        thumb.addEventListener("click", function () {
           openLightboxGroup(groupNumber, variant);
         });
 
-        lightboxSidebar.appendChild(thumb);
+        thumbsBox.appendChild(thumb);
       });
     } else {
-      // Dölj sidopanelen om det bara finns en bild i serien
-      lightboxSidebar.style.display = "none";
+      thumbsBox.style.display = "none";
     }
   }
 
-  // Visa lightboxen
-  lightbox.style.display = "block";
+  lightbox.style.display = "flex";
 }
