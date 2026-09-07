@@ -103,7 +103,7 @@ function openLightboxGroup(groupNumber, activeArt) {
           ? String(activeArt.price).trim() 
           : "";
 
-        var priceText = rawPrice !== "" ? rawPrice : "Price on request";
+        var priceText = rawPrice !== "" ? rawPrice : "On request";
         
         // Dynamisk rad för år (visas endast om 'year' finns i artworksData)
         var yearHTML = activeArt.year ? '<strong>Year:</strong> ' + activeArt.year + '<br>' : '';
