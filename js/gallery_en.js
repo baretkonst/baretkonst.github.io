@@ -121,7 +121,7 @@ function openLightboxGroup(groupNumber, activeArt) {
             '<p class="note-text"><small>' +
               'Signed on the back upon request.<br>' +
               'Delivered unframed.<br>' +
-              'Custom framing available upon request.' +
+              'Framing available upon request.' +
             '</small></p>' +
           '</div>';
       }

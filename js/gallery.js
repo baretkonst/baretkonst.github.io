@@ -121,7 +121,7 @@ function openLightboxGroup(groupNumber, activeArt) {
             '<p class="note-text"><small>' +
               'Signeras på baksidan vid förfrågan.<br>' +
               'Levereras oramad.<br>' +
-              'Anpassad inramning kan ordnas på förfrågan.' +
+              'Inramning kan ordnas på förfrågan.' +
             '</small></p>' +
           '</div>';
       }
