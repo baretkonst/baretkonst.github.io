@@ -114,7 +114,8 @@ function openLightboxGroup(groupNumber, activeArt) {
             '<p class="price-highlight"><strong>Pris:</strong> ' + priceText + '</p>' +
             '<p class="specs-text">' +
               yearHTML +
-              '<strong>Tryck:</strong> Epson SC-P900<br>' +
+              '<strong>Skrivare:</strong> Epson SC-P900<br>' +
+              '<strong>Format:</strong> Upp till A2 (420 × 594 mm)<br>' +
               '<strong>Papper:</strong> Fine Art Cotton Textured Natural II (300 g/m²)' +
             '</p>' +
             '<p class="note-text"><small>' +
