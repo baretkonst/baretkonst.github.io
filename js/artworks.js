@@ -580,6 +580,7 @@ const artworksData = [
     "title": "Image 2023123012161452501 Amber I3",
     "colorscale": "Amber",
     "year": 2023,
+    "sold": true,
     "comment": ""
   },
   {

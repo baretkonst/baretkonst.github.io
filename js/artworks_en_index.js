@@ -20,6 +20,7 @@ const artworksData = [
     "alt": "Generativt konstverk - Image 2023123012161452501 Amber I3",
     "title": "Image 2023123012161452501 Amber I3",
     "colorscale": "Amber",
+    "sold": true,
     "comment": ""
   },
   {
