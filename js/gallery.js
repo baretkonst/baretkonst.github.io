@@ -109,14 +109,14 @@ function openLightboxGroup(groupNumber, activeArt) {
           priceHTML = rawPrice;
         } else if (activeArt.random) {
           priceHTML =
-            '<br>&emsp;A4 :&emsp; 1 400 kr' +
-            '<br>&emsp;A3 :&emsp; 2 100 kr' +
-            '<br>&emsp;A2 :&emsp; 2 900 kr';
+            '<br>&emsp;A4 :&emsp; 1 500 kr' +
+            '<br>&emsp;A3 :&emsp; 2 000 kr' +
+            '<br>&emsp;A2 :&emsp; 3 000 kr';
         } else {
           priceHTML =
-            '<br>&emsp;A4 :&emsp; 2 400 kr' +
-            '<br>&emsp;A3 :&emsp; 3 100 kr' +
-            '<br>&emsp;A2 :&emsp; 4 900 kr';
+            '<br>&emsp;A4 :&emsp; 2 500 kr' +
+            '<br>&emsp;A3 :&emsp; 3 500 kr' +
+            '<br>&emsp;A2 :&emsp; 5 000 kr';
         }
 
         // Dynamisk rad för år (visas endast om 'year' finns)
