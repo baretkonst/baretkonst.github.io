@@ -128,8 +128,8 @@ function openLightboxGroup(groupNumber, activeArt) {
           : '';
 
         var randomHTML = activeArt.random
-          ? '<span ' + labelStyle + '><strong>Upplaga:</strong></span>Unikt slumpfrö<br>'
-          : '<span ' + labelStyle + '><strong>Upplaga:</strong></span>Identiska tryck<br>';
+          ? '<span ' + labelStyle + '><strong>Generering:</strong></span>Unik struktur<br>'
+          : '<span ' + labelStyle + '><strong>Generering:</strong></span>Fast struktur<br>';
 
         var colorscaleHTML = formattedScale
           ? '<span ' + labelStyle + '><strong>Färgskala:</strong></span>' + formattedScale + '<br>'

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Struktur & Färg – Bäret Konst</title>
+    <title>Upplagor – Bäret Konst</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="/favicon.png">
 
@@ -13,6 +13,7 @@
             cursor: pointer;
             transition: background-color 0.2s ease, color 0.2s ease;
         }
+
         .option-btn.active {
             background-color: #444444 !important;
             color: #ffffff !important;
@@ -61,29 +62,79 @@
 
                 <h2 class="sub-heading">Struktur</h2>
                 <p>
-                    I grunden skapas varje verk av en matematisk algoritm. Bilden du ser i gråskala nedan utgör verkets komposition, det vill säga den underliggande struktur som koden genererat.
+                    I grunden skapas varje verk av en matematisk algoritm. Bilden du ser i gråskala nedan utgör verkets
+                    komposition, det vill säga den underliggande struktur som koden genererat.
                 </p>
 
-                <!-- Interaktiv visning av komposition och färgskalor -->
-                <div class="interactive-preview" style="text-align: center; margin-bottom: 25px;">
-                    <img id="preview-image" src="works/image_202312301242433310_gray.webp" class="images_large" alt="Grundstruktur i gråskala">
+                <!-- Första interaktiva visningen -->
+                <div class="interactive-preview" style="text-align: center; margin-bottom: 35px;">
+                    <img id="preview-image-1" src="works/image_202312301242433310_gray.webp" class="images_large"
+                        alt="Grundstruktur i gråskala">
 
-                    <!-- Knappar för att byta färgskala -->
-                    <div class="color-picker-demo" style="margin-top: 15px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-                        <button onclick="changePreview(this, 'works/image_202312301242433310_gray.webp')" class="dropdown-btn option-btn active">Gråskala (Struktur)</button>
-                        <button onclick="changePreview(this, 'works/image_202312301242433310_amber_i3.webp')" class="dropdown-btn option-btn">Amber</button>
-                        <button onclick="changePreview(this, 'works/image_202312301242433310_ice_i1.webp')" class="dropdown-btn option-btn">Ice</button>
+                    <!-- Knappar för första bilden -->
+                    <div class="color-picker-demo"
+                        style="margin-top: 15px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+                        <button
+                            onclick="changePreview(this, 'preview-image-1', 'option-btn-1', 'works/image_202312301242433310_gray.webp')"
+                            class="dropdown-btn option-btn option-btn-1 active">Gråskala (Struktur)</button>
+                        <button
+                            onclick="changePreview(this, 'preview-image-1', 'option-btn-1', 'works/image_202312301242433310_amber_i3.webp')"
+                            class="dropdown-btn option-btn option-btn-1">Amber</button>
+                        <button
+                            onclick="changePreview(this, 'preview-image-1', 'option-btn-1', 'works/image_202312301242433310_ice_i1.webp')"
+                            class="dropdown-btn option-btn option-btn-1">Ice</button>
                     </div>
                 </div>
 
+
+
                 <h2 class="sub-heading">Färg</h2>
                 <p>
-                    Vidare färgläggs strukturen utifrån en färgskala och det färdiga verket uppstår. 
-                    En kombination av en specifik struktur och en specifik färgskala trycks och säljs <strong>endast i ett enda exemplar</strong>. 
+                    Vidare färgläggs strukturen utifrån en färgskala och det färdiga verket uppstår.
+                    En kombination av en specifik struktur och en specifik färgskala trycks och säljs <strong>endast i
+                        ett enda exemplar</strong>.
                 </p>
                 <p>
-                    Samma grundstruktur kan förekomma i andra färgserier (som exemplen ovan), men två helt identiska tryck framställs aldrig. Varje fysiskt tryck är därmed unikt i sitt specifika utförande.
+                    Samma grundstruktur kan förekomma i andra färgserier (som exemplen ovan), men två helt identiska
+                    tryck framställs aldrig. Varje fysiskt tryck är därmed unikt i sitt specifika utförande.
                 </p>
+
+
+                <h2 class="sub-heading">Slump</h2>
+                <p>
+                    Vissa verk genereras med hjälp av slumptal, medan andra är helt bestämda från start. Bilden nedan
+                    utgår från exakt samma algoritm som den ovan, men har ett nytt slumpmässigt utfall.
+                </p>
+                <p>
+                    Verk som bygger på slump har alla en <strong>unik struktur</strong>. Samma algoritm kan skapa flera besläktade, men aldrig identiska, strukturer. Verk som inte använder slump kallas <strong>fasta
+                        strukturer</strong> och genererar alltid exakt samma motiv.
+                </p>
+
+
+                <!-- Andra interaktiva visningen -->
+                <div class="interactive-preview" style="text-align: center; margin-bottom: 25px;">
+                    <img id="preview-image-2" src="works/image_20260908234855740_gray.webp" class="images_large"
+                        alt="Grundstruktur i gråskala">
+
+                    <!-- Knappar för andra bilden -->
+                    <div class="color-picker-demo"
+                        style="margin-top: 15px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+                        <button
+                            onclick="changePreview(this, 'preview-image-2', 'option-btn-2', 'works/image_20260908234855740_gray.webp')"
+                            class="dropdown-btn option-btn option-btn-2 active">Gråskala (Struktur)</button>
+                        <button
+                            onclick="changePreview(this, 'preview-image-2', 'option-btn-2', 'works/image_20260908234855740_amber_i3.webp')"
+                            class="dropdown-btn option-btn option-btn-2">Amber</button>
+                        <button
+                            onclick="changePreview(this, 'preview-image-2', 'option-btn-2', 'works/image_20260908234855740_ice_i1.webp')"
+                            class="dropdown-btn option-btn option-btn-2">Ice</button>
+                    </div>
+                </div>
+
+
+
+
+
 
             </div>
         </section>
@@ -95,18 +146,20 @@
 
     <!-- JS för aktiv knapp och källbyte -->
     <script>
-        function changePreview(selectedBtn, imgSrc) {
-            const img = document.getElementById('preview-image');
-            const buttons = document.querySelectorAll('.option-btn');
-            
-            // Ta bort active-klassen från alla knappar
+        function changePreview(selectedBtn, imgId, btnClass, imgSrc) {
+            const img = document.getElementById(imgId);
+            const buttons = document.querySelectorAll('.' + btnClass);
+
+            // Ta bort active-klassen enbart från knapparna i just denna bildsektion
             buttons.forEach(btn => btn.classList.remove('active'));
-            
-            // Lägg till active-klassen på den valda knappen
+
+            // Markera den klickade knappen som aktiv
             selectedBtn.classList.add('active');
-            
-            // Uppdatera bild
-            img.src = imgSrc;
+
+            // Uppdatera rätt bild
+            if (img) {
+                img.src = imgSrc;
+            }
         }
     </script>
     <script src="script.js"></script>

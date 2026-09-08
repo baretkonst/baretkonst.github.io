@@ -128,8 +128,8 @@ function openLightboxGroup(groupNumber, activeArt) {
           : '';
 
         var randomHTML = activeArt.random
-          ? '<span ' + labelStyle + '><strong>Edition:</strong></span>Unique seed each print<br>'
-          : '<span ' + labelStyle + '><strong>Edition:</strong></span>Identical prints<br>';
+          ? '<span ' + labelStyle + '><strong>Creation:</strong></span>Unique structure<br>'
+          : '<span ' + labelStyle + '><strong>Creation:</strong></span>Fixed structures<br>';
 
         printContainer.innerHTML =
           '<div class="print-info-card">' +
