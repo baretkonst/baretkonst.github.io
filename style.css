@@ -709,12 +709,12 @@ main,
     font-size: 0.8rem;
     line-height: 1.4;
     margin: 10px 0;
-    opacity: 0.85;
+    opacity: 0.95;
 }
 
 .note-text {
     margin-bottom: 12px;
-    opacity: 0.6;
+    opacity: 1.0;
 }
 
 .print-mail-btn {
@@ -730,4 +730,17 @@ main,
 .print-mail-btn:hover {
     background-color: #ffffff;
     color: #000000;
+}
+
+/* Stil för knappar i färgväljaren */
+.option-btn {
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+/* När knappen är active/nedtryckt: Grafitgrå bakgrund med vit text */
+.option-btn.active {
+    background-color: #444444 !important;
+    color: #ffffff !important;
+    border-color: #444444 !important;
 }

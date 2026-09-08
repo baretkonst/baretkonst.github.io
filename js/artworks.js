@@ -1,6 +1,7 @@
 const artworksData = [
   {
     "number": "20231230100741697",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_20231230100741697_church_i1.webp",
@@ -12,6 +13,7 @@ const artworksData = [
   },
   {
     "number": "20231230100741697",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20231230100741697_cold_i1.webp",
@@ -23,6 +25,7 @@ const artworksData = [
   },
   {
     "number": "20231230100741697",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20231230100741697_lime_i1.webp",
@@ -34,6 +37,7 @@ const artworksData = [
   },
   {
     "number": "20231230100741697",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20231230100741697_the_black_ring_i1.webp",
@@ -45,6 +49,7 @@ const artworksData = [
   },
   {
     "number": "20231230100741697",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20231230100741697_gray.webp",
@@ -56,6 +61,7 @@ const artworksData = [
   },
   {
     "number": "2023123012461896001",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123012461896001_ice_i1.webp",
@@ -67,6 +73,7 @@ const artworksData = [
   },
   {
     "number": "2023123012461896001",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_2023123012461896001_amber_i3.webp",
@@ -78,6 +85,7 @@ const artworksData = [
   },
   {
     "number": "2023123012461896001",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123012461896001_second_emerald_rev_i3.webp",
@@ -89,6 +97,7 @@ const artworksData = [
   },
   {
     "number": "2023123012461896001",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123012461896001_rubytoo_i3.webp",
@@ -100,6 +109,7 @@ const artworksData = [
   },
   {
     "number": "20250303210220574",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250303210220574_islands_i1.webp",
@@ -111,6 +121,7 @@ const artworksData = [
   },
   {
     "number": "20250303210220574",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250303210220574_scyphozoa_rev_i1.webp",
@@ -122,6 +133,7 @@ const artworksData = [
   },
   {
     "number": "20250303210220574",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_20250303210220574_amber_i3.webp",
@@ -133,6 +145,7 @@ const artworksData = [
   },
   {
     "number": "20250303210220574",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250303210220574_amber_rev_i3.webp",
@@ -144,6 +157,7 @@ const artworksData = [
   },
   {
     "number": "20250303210220574",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250303210220574_into_the_deep_i3.webp",
@@ -155,6 +169,7 @@ const artworksData = [
   },
   {
     "number": "2023123011174444801",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123011174444801_ice_i1.webp",
@@ -166,6 +181,7 @@ const artworksData = [
   },
   {
     "number": "2023123011174444801",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_2023123011174444801_amethyst_rev_i3.webp",
@@ -177,6 +193,7 @@ const artworksData = [
   },
   {
     "number": "2023123011174444801",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123011174444801_second_emerald_rev_i3.webp",
@@ -188,6 +205,7 @@ const artworksData = [
   },
   {
     "number": "2023123011174444801",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123011174444801_rubytoo_rev_i3.webp",
@@ -199,6 +217,7 @@ const artworksData = [
   },
   {
     "number": "2023123011174444801",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123011174444801_and_sapphire_rev_i3.webp",
@@ -210,6 +229,7 @@ const artworksData = [
   },
   {
     "number": "202312301246263250",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_202312301246263250_ice_i1.webp",
@@ -221,6 +241,7 @@ const artworksData = [
   },
   {
     "number": "202312301246263250",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246263250_sunflower_i1.webp",
@@ -232,6 +253,7 @@ const artworksData = [
   },
   {
     "number": "202312301246263250",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246263250_amber_i3.webp",
@@ -243,6 +265,7 @@ const artworksData = [
   },
   {
     "number": "202312301246263250",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246263250_amber_rev_i3.webp",
@@ -254,6 +277,7 @@ const artworksData = [
   },
   {
     "number": "202312301246263250",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246263250_second_emerald_rev_i3.webp",
@@ -265,6 +289,7 @@ const artworksData = [
   },
   {
     "number": "202312301246263250",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246263250_rubytoo_i3.webp",
@@ -276,6 +301,7 @@ const artworksData = [
   },
   {
     "number": "202312301246263250",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246263250_rubytoo_rev_i3.webp",
@@ -287,6 +313,7 @@ const artworksData = [
   },
   {
     "number": "202312301246263250",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246263250_and_sapphire_i3.webp",
@@ -298,6 +325,7 @@ const artworksData = [
   },
   {
     "number": "202312301246263250",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246263250_and_sapphire_rev_i3.webp",
@@ -309,6 +337,7 @@ const artworksData = [
   },
   {
     "number": "202312301246263250",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246263250_gray.webp",
@@ -320,6 +349,7 @@ const artworksData = [
   },
   {
     "number": "202312301246263250",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246263250_sea_i3.webp",
@@ -331,6 +361,7 @@ const artworksData = [
   },
   {
     "number": "202312301246263250",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246263250_veil_i3.webp",
@@ -342,6 +373,7 @@ const artworksData = [
   },
   {
     "number": "202308061902279",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202308061902279_a_fine_line_i1.webp",
@@ -353,6 +385,7 @@ const artworksData = [
   },
   {
     "number": "202308061902279",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_202308061902279_sunflower_i1.webp",
@@ -364,6 +397,7 @@ const artworksData = [
   },
   {
     "number": "202308061902279",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202308061902279_interval.webp",
@@ -375,6 +409,7 @@ const artworksData = [
   },
   {
     "number": "202308061902279",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202308061902279_pastel_i3.webp",
@@ -386,6 +421,7 @@ const artworksData = [
   },
   {
     "number": "20231230122836261",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_20231230122836261_fiery_morning.webp",
@@ -397,6 +433,7 @@ const artworksData = [
   },
   {
     "number": "20230806163722812",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230806163722812_gray.webp",
@@ -408,6 +445,7 @@ const artworksData = [
   },
   {
     "number": "20230806163722812",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_20230806163722812_interval.webp",
@@ -419,6 +457,7 @@ const artworksData = [
   },
   {
     "number": "20230806163722812",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230806163722812_starling.webp",
@@ -430,6 +469,7 @@ const artworksData = [
   },
   {
     "number": "202312301243501300",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301243501300_ice_i1.webp",
@@ -441,6 +481,7 @@ const artworksData = [
   },
   {
     "number": "202312301243501300",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301243501300_new_autumn_i1.webp",
@@ -452,6 +493,7 @@ const artworksData = [
   },
   {
     "number": "202312301243501300",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301243501300_amber_i3.webp",
@@ -463,6 +505,7 @@ const artworksData = [
   },
   {
     "number": "202312301243501300",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_202312301243501300_rubytoo_rev_i3.webp",
@@ -474,6 +517,7 @@ const artworksData = [
   },
   {
     "number": "202312301243501300",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301243501300_gray.webp",
@@ -485,6 +529,7 @@ const artworksData = [
   },
   {
     "number": "20230813195308249",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230813195308249_deep_blue_i1.webp",
@@ -496,6 +541,7 @@ const artworksData = [
   },
   {
     "number": "20230813195308249",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_20230813195308249_new_autumn_i1.webp",
@@ -507,6 +553,7 @@ const artworksData = [
   },
   {
     "number": "20230813195308249",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230813195308249_amber_rev_i3.webp",
@@ -518,6 +565,7 @@ const artworksData = [
   },
   {
     "number": "20250601132910",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_20250601132910_a_three_in_the_forrest_i1.webp",
@@ -529,6 +577,7 @@ const artworksData = [
   },
   {
     "number": "20250601132910",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250601132910_missing_red_i1.webp",
@@ -540,6 +589,7 @@ const artworksData = [
   },
   {
     "number": "20250601132910",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250601132910_sunset_i1.webp",
@@ -551,6 +601,7 @@ const artworksData = [
   },
   {
     "number": "20250601132910",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250601132910_gray.webp",
@@ -562,6 +613,7 @@ const artworksData = [
   },
   {
     "number": "2023123012161452501",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123012161452501_ice_i1.webp",
@@ -573,6 +625,7 @@ const artworksData = [
   },
   {
     "number": "2023123012161452501",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_2023123012161452501_amber_i3.webp",
@@ -585,6 +638,7 @@ const artworksData = [
   },
   {
     "number": "2023123012161452501",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123012161452501_second_emerald_i3.webp",
@@ -596,6 +650,7 @@ const artworksData = [
   },
   {
     "number": "2023123012161452501",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123012161452501_rubytoo_i3.webp",
@@ -607,6 +662,7 @@ const artworksData = [
   },
   {
     "number": "2023123012161452501",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123012161452501_pastel_i3.webp",
@@ -618,6 +674,7 @@ const artworksData = [
   },
   {
     "number": "2023123012161452501",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123012161452501_sea_i3.webp",
@@ -629,6 +686,7 @@ const artworksData = [
   },
   {
     "number": "20230806172645305",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230806172645305_gray.webp",
@@ -640,6 +698,7 @@ const artworksData = [
   },
   {
     "number": "20230806172645305",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230806172645305_aurora_img_101.webp",
@@ -651,6 +710,7 @@ const artworksData = [
   },
   {
     "number": "20230806172645305",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_20230806172645305_pastel_i3.webp",
@@ -662,6 +722,7 @@ const artworksData = [
   },
   {
     "number": "20230813190533383",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_20230813190533383_division_i1.webp",
@@ -673,6 +734,7 @@ const artworksData = [
   },
   {
     "number": "20230813190533383",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230813190533383_aurora_img_101.webp",
@@ -684,6 +746,7 @@ const artworksData = [
   },
   {
     "number": "20230813190533383",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230813190533383_fire_burning_img_3_100.webp",
@@ -695,6 +758,7 @@ const artworksData = [
   },
   {
     "number": "20230813190533383",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230813190533383_multiverse_i3.webp",
@@ -706,6 +770,7 @@ const artworksData = [
   },
   {
     "number": "20230806164137984",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230806164137984_exposed_i1.webp",
@@ -717,6 +782,7 @@ const artworksData = [
   },
   {
     "number": "20230806164137984",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_20230806164137984_france_i1.webp",
@@ -728,6 +794,7 @@ const artworksData = [
   },
   {
     "number": "20230806164137984",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230806164137984_first_spring_i1.webp",
@@ -739,6 +806,7 @@ const artworksData = [
   },
   {
     "number": "20230806164137984",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230806164137984_autumn.webp",
@@ -750,6 +818,7 @@ const artworksData = [
   },
   {
     "number": "20230806164137984",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230806164137984_gray.webp",
@@ -761,6 +830,7 @@ const artworksData = [
   },
   {
     "number": "202312301234079770",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_202312301234079770_new_autumn_i1.webp",
@@ -772,6 +842,7 @@ const artworksData = [
   },
   {
     "number": "202312301234079770",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301234079770_amber_i3.webp",
@@ -783,6 +854,7 @@ const artworksData = [
   },
   {
     "number": "202312301234079770",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301234079770_rubytoo_i3.webp",
@@ -794,6 +866,7 @@ const artworksData = [
   },
   {
     "number": "202312301234079770",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301234079770_and_sapphire_i3.webp",
@@ -805,6 +878,7 @@ const artworksData = [
   },
   {
     "number": "202511161216114078364",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_202511161216114078364_fiery_morning.webp",
@@ -816,6 +890,7 @@ const artworksData = [
   },
   {
     "number": "202511161216114078364",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202511161216114078364_gray.webp",
@@ -827,6 +902,7 @@ const artworksData = [
   },
   {
     "number": "2025111612161141019515",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_2025111612161141019515_ice_i1.webp",
@@ -838,6 +914,7 @@ const artworksData = [
   },
   {
     "number": "20230808152634419",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_20230808152634419_heaven_i1.webp",
@@ -849,6 +926,7 @@ const artworksData = [
   },
   {
     "number": "202308080729098070",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202308080729098070_greeenbluue_i1.webp",
@@ -860,6 +938,7 @@ const artworksData = [
   },
   {
     "number": "202308080729098070",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202308080729098070_icecrown_i1.webp",
@@ -871,6 +950,7 @@ const artworksData = [
   },
   {
     "number": "202308080729098070",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_202308080729098070_amber_rev_i3.webp",
@@ -882,6 +962,7 @@ const artworksData = [
   },
   {
     "number": "20231230105322850",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20231230105322850_autumn.webp",
@@ -893,6 +974,7 @@ const artworksData = [
   },
   {
     "number": "20231230105322850",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_20231230105322850_fiery_morning.webp",
@@ -904,6 +986,7 @@ const artworksData = [
   },
   {
     "number": "20231230105322850",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20231230105322850_gray.webp",
@@ -915,6 +998,7 @@ const artworksData = [
   },
   {
     "number": "20231230105322850",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20231230105322850_interval.webp",
@@ -926,6 +1010,7 @@ const artworksData = [
   },
   {
     "number": "20231230105322850",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20231230105322850_meadow.webp",
@@ -937,6 +1022,7 @@ const artworksData = [
   },
   {
     "number": "2023123012245086601",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_2023123012245086601_ice_i1.webp",
@@ -948,6 +1034,7 @@ const artworksData = [
   },
   {
     "number": "2023123012245086601",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123012245086601_amber_rev_i3.webp",
@@ -959,6 +1046,7 @@ const artworksData = [
   },
   {
     "number": "2023123012245086601",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123012245086601_rubytoo_i3.webp",
@@ -970,6 +1058,7 @@ const artworksData = [
   },
   {
     "number": "2023123012245086601",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123012245086601_gray.webp",
@@ -981,6 +1070,7 @@ const artworksData = [
   },
   {
     "number": "2023123109332264",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_2023123109332264_meadow.webp",
@@ -992,6 +1082,7 @@ const artworksData = [
   },
   {
     "number": "2023123109332264",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123109332264_tokyo_i3.webp",
@@ -1003,6 +1094,7 @@ const artworksData = [
   },
   {
     "number": "20231230100247220",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20231230100247220_ice_i1.webp",
@@ -1014,6 +1106,7 @@ const artworksData = [
   },
   {
     "number": "20231230100247220",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_20231230100247220_new_autumn_rev_i1.webp",
@@ -1025,6 +1118,7 @@ const artworksData = [
   },
   {
     "number": "20230806172143447",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230806172143447_a_three_in_the_forrest_i1.webp",
@@ -1036,6 +1130,7 @@ const artworksData = [
   },
   {
     "number": "20230806172143447",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_20230806172143447_division_i1.webp",
@@ -1047,6 +1142,7 @@ const artworksData = [
   },
   {
     "number": "20230806172143447",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230806172143447_space_i1.webp",
@@ -1058,6 +1154,7 @@ const artworksData = [
   },
   {
     "number": "20230806172143447",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20230806172143447_fire_burning_img_3_100.webp",
@@ -1069,6 +1166,7 @@ const artworksData = [
   },
   {
     "number": "20250304093414497",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_20250304093414497_amber_i3.webp",
@@ -1080,6 +1178,7 @@ const artworksData = [
   },
   {
     "number": "20250304093414497",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250304093414497_gemruby_i3.webp",
@@ -1091,6 +1190,7 @@ const artworksData = [
   },
   {
     "number": "202312301053279420",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301053279420_amber_i3.webp",
@@ -1102,6 +1202,7 @@ const artworksData = [
   },
   {
     "number": "202312301053279420",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_202312301053279420_and_sapphire_rev_i3.webp",
@@ -1113,6 +1214,7 @@ const artworksData = [
   },
   {
     "number": "202312301246189600",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246189600_ice_i1.webp",
@@ -1124,6 +1226,7 @@ const artworksData = [
   },
   {
     "number": "202312301246189600",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246189600_skane_i1.webp",
@@ -1135,6 +1238,7 @@ const artworksData = [
   },
   {
     "number": "202312301246189600",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246189600_fiery_morning.webp",
@@ -1146,6 +1250,7 @@ const artworksData = [
   },
   {
     "number": "202312301246189600",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246189600_amber_i3.webp",
@@ -1157,6 +1262,7 @@ const artworksData = [
   },
   {
     "number": "202312301246189600",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301246189600_second_emerald_rev_i3.webp",
@@ -1168,6 +1274,7 @@ const artworksData = [
   },
   {
     "number": "202312301246189600",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_202312301246189600_gray.webp",
@@ -1179,6 +1286,7 @@ const artworksData = [
   },
   {
     "number": "202308070845029160",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202308070845029160_mixed_arts_i1.webp",
@@ -1190,6 +1298,7 @@ const artworksData = [
   },
   {
     "number": "202308070845029160",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202308070845029160_scyphozoa_i1.webp",
@@ -1201,6 +1310,7 @@ const artworksData = [
   },
   {
     "number": "202308070845029160",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202308070845029160_big_bang_i3.webp",
@@ -1212,6 +1322,7 @@ const artworksData = [
   },
   {
     "number": "202308070845029160",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_202308070845029160_aurora_img_101.webp",
@@ -1223,6 +1334,7 @@ const artworksData = [
   },
   {
     "number": "202308070845029160",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202308070845029160_hot_nights_img_101.webp",
@@ -1234,6 +1346,7 @@ const artworksData = [
   },
   {
     "number": "202308070845029160",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202308070845029160_net_i3.webp",
@@ -1245,6 +1358,7 @@ const artworksData = [
   },
   {
     "number": "202312301219263401",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301219263401_ice_i1.webp",
@@ -1256,6 +1370,7 @@ const artworksData = [
   },
   {
     "number": "202312301219263401",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_202312301219263401_rubytoo_rev_i3.webp",
@@ -1267,6 +1382,7 @@ const artworksData = [
   },
   {
     "number": "202312301219263401",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312301219263401_and_sapphire_rev_i3.webp",
@@ -1278,6 +1394,7 @@ const artworksData = [
   },
   {
     "number": "2023123012340797701",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_2023123012340797701_season_winter_rev_i1.webp",
@@ -1289,6 +1406,7 @@ const artworksData = [
   },
   {
     "number": "2023123012340797701",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_2023123012340797701_gray.webp",
@@ -1300,6 +1418,7 @@ const artworksData = [
   },
   {
     "number": "202312310835291060",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_202312310835291060_amber_rev_i3.webp",
@@ -1311,6 +1430,7 @@ const artworksData = [
   },
   {
     "number": "202312310835291060",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_202312310835291060_gray.webp",
@@ -1322,6 +1442,7 @@ const artworksData = [
   },
   {
     "number": "20250804105621349",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_20250804105621349_amber_i3.webp",
@@ -1333,6 +1454,7 @@ const artworksData = [
   },
   {
     "number": "20250804105621349",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250804105621349_rubytoo_i3.webp",
@@ -1344,6 +1466,7 @@ const artworksData = [
   },
   {
     "number": "20250804105621349",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250804105621349_and_sapphire_i3.webp",
@@ -1355,6 +1478,7 @@ const artworksData = [
   },
   {
     "number": "20250804105621349",
+    "random": true,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250804105621349_gray.webp",
@@ -1366,6 +1490,7 @@ const artworksData = [
   },
   {
     "number": "20231230123845120",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_20231230123845120_season_winter_rev_i1.webp",
@@ -1377,6 +1502,7 @@ const artworksData = [
   },
   {
     "number": "202308061858431791",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_202308061858431791_gray.webp",
@@ -1388,6 +1514,7 @@ const artworksData = [
   },
   {
     "number": "202312301236059230",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_202312301236059230_bending_space_i1.webp",
@@ -1399,6 +1526,7 @@ const artworksData = [
   },
   {
     "number": "202308080740378830",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202308080740378830_greeenbluue_i1.webp",
@@ -1410,6 +1538,7 @@ const artworksData = [
   },
   {
     "number": "202308080740378830",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_202308080740378830_new_autumn_i1.webp",
@@ -1421,6 +1550,7 @@ const artworksData = [
   },
   {
     "number": "202308080740378830",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_202308080740378830_rubytoo_i3.webp",
@@ -1432,6 +1562,7 @@ const artworksData = [
   },
   {
     "number": "20250302193020466",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_20250302193020466_abyss_i1.webp",
@@ -1443,6 +1574,7 @@ const artworksData = [
   },
   {
     "number": "20250302193020466",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250302193020466_rose_i1.webp",
@@ -1454,6 +1586,7 @@ const artworksData = [
   },
   {
     "number": "20250302193020466",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250302193020466_amber_rev_i3.webp",
@@ -1465,6 +1598,7 @@ const artworksData = [
   },
   {
     "number": "20250302193020466",
+    "random": false,
     "main": false,
     "pinned": true,
     "filename": "works/image_20250302193020466_rubytoo_rev_i3.webp",
@@ -1476,6 +1610,7 @@ const artworksData = [
   },
   {
     "number": "2025111612161141061617",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_2025111612161141061617_amber_i3.webp",
@@ -1487,6 +1622,7 @@ const artworksData = [
   },
   {
     "number": "20250304075107727",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_20250304075107727_ice_rev_i1.webp",
@@ -1498,6 +1634,7 @@ const artworksData = [
   },
   {
     "number": "202312301114185593",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_202312301114185593_fiery_morning.webp",
@@ -1509,6 +1646,7 @@ const artworksData = [
   },
   {
     "number": "202312301052481730",
+    "random": false,
     "main": true,
     "pinned": true,
     "filename": "works/image_202312301052481730_season_winter_rev_i1.webp",
@@ -1520,6 +1658,7 @@ const artworksData = [
   },
   {
     "number": "20231230100806572",
+    "random": true,
     "main": true,
     "pinned": true,
     "filename": "works/image_20231230100806572_fiery_morning.webp",
@@ -1531,6 +1670,7 @@ const artworksData = [
   },
   {
     "number": "202308042127153900",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308042127153900_islands_rev_i1.webp",
@@ -1542,6 +1682,7 @@ const artworksData = [
   },
   {
     "number": "202308042127153900",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_202308042127153900_amethyst_rev_i3.webp",
@@ -1553,6 +1694,7 @@ const artworksData = [
   },
   {
     "number": "202308042127153900",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308042127153900_second_emerald_rev_i3.webp",
@@ -1564,6 +1706,7 @@ const artworksData = [
   },
   {
     "number": "202308042127153900",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308042127153900_rubytoo_rev_i3.webp",
@@ -1575,6 +1718,7 @@ const artworksData = [
   },
   {
     "number": "202308042127153900",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308042127153900_and_sapphire_rev_i3.webp",
@@ -1586,6 +1730,7 @@ const artworksData = [
   },
   {
     "number": "202308042127153900",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308042127153900_aurora_img_101.webp",
@@ -1597,6 +1742,7 @@ const artworksData = [
   },
   {
     "number": "202308061637015",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_202308061637015_strawberry.webp",
@@ -1608,6 +1754,7 @@ const artworksData = [
   },
   {
     "number": "202308061637015",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308061637015_sund_i3.webp",
@@ -1619,6 +1766,7 @@ const artworksData = [
   },
   {
     "number": "20230806165139114",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806165139114_pastel_rev_i3.webp",
@@ -1630,6 +1778,7 @@ const artworksData = [
   },
   {
     "number": "20230806170554210",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806170554210_grey_sun_i1.webp",
@@ -1641,6 +1790,7 @@ const artworksData = [
   },
   {
     "number": "20230806170554210",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806170554210_cyan_b_rev.webp",
@@ -1652,6 +1802,7 @@ const artworksData = [
   },
   {
     "number": "20230806170554210",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806170554210_amber_i3.webp",
@@ -1663,6 +1814,7 @@ const artworksData = [
   },
   {
     "number": "20230806171047214",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806171047214_season_winter_i1.webp",
@@ -1674,6 +1826,7 @@ const artworksData = [
   },
   {
     "number": "20230806171916665",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806171916665_neon_spike.webp",
@@ -1685,6 +1838,7 @@ const artworksData = [
   },
   {
     "number": "20230806171916665",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806171916665_autumn.webp",
@@ -1696,6 +1850,7 @@ const artworksData = [
   },
   {
     "number": "20230806171916665",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806171916665_fiery_morning.webp",
@@ -1707,6 +1862,7 @@ const artworksData = [
   },
   {
     "number": "20230806171936468",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806171936468_new_autumn_rev_i1.webp",
@@ -1718,6 +1874,7 @@ const artworksData = [
   },
   {
     "number": "20230806171936468",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806171936468_wine_i1.webp",
@@ -1729,6 +1886,7 @@ const artworksData = [
   },
   {
     "number": "20230806171936468",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806171936468_autumn_rev.webp",
@@ -1740,6 +1898,7 @@ const artworksData = [
   },
   {
     "number": "20230806171936468",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806171936468_pastel_rev_i3.webp",
@@ -1751,6 +1910,7 @@ const artworksData = [
   },
   {
     "number": "20230806172843307",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806172843307_new_autumn_i1.webp",
@@ -1762,6 +1922,7 @@ const artworksData = [
   },
   {
     "number": "20230806172843307",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806172843307_first_spring_i1.webp",
@@ -1773,6 +1934,7 @@ const artworksData = [
   },
   {
     "number": "20230806172843307",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806172843307_season_winter_i1.webp",
@@ -1784,6 +1946,7 @@ const artworksData = [
   },
   {
     "number": "20230806172843307",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806172843307_autumn.webp",
@@ -1795,6 +1958,7 @@ const artworksData = [
   },
   {
     "number": "20230806172843307",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806172843307_meadow.webp",
@@ -1806,6 +1970,7 @@ const artworksData = [
   },
   {
     "number": "20230806172843307",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806172843307_pastel_i3.webp",
@@ -1817,6 +1982,7 @@ const artworksData = [
   },
   {
     "number": "20230806185308585",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806185308585_four_summers_rev_i1.webp",
@@ -1828,6 +1994,7 @@ const artworksData = [
   },
   {
     "number": "20230806185308585",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806185308585_autumn_rev.webp",
@@ -1839,6 +2006,7 @@ const artworksData = [
   },
   {
     "number": "20230806185308585",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806185308585_rubytoo_i3.webp",
@@ -1850,6 +2018,7 @@ const artworksData = [
   },
   {
     "number": "20230806185308585",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806185308585_pastel_rev_i3.webp",
@@ -1861,6 +2030,7 @@ const artworksData = [
   },
   {
     "number": "202308061853085853",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_202308061853085853_church_i1.webp",
@@ -1872,6 +2042,7 @@ const artworksData = [
   },
   {
     "number": "202308061853085853",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308061853085853_the_square_i1.webp",
@@ -1883,6 +2054,7 @@ const artworksData = [
   },
   {
     "number": "20230806185843179",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806185843179_amber_rev_i3.webp",
@@ -1894,6 +2066,7 @@ const artworksData = [
   },
   {
     "number": "20230806192555542",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806192555542_gray.webp",
@@ -1905,6 +2078,7 @@ const artworksData = [
   },
   {
     "number": "20230806192613599",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806192613599_first_spring_i1.webp",
@@ -1916,6 +2090,7 @@ const artworksData = [
   },
   {
     "number": "20230806192613599",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806192613599_four_summers_i1.webp",
@@ -1927,6 +2102,7 @@ const artworksData = [
   },
   {
     "number": "20230806192613599",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806192613599_autumn_rev.webp",
@@ -1938,6 +2114,7 @@ const artworksData = [
   },
   {
     "number": "202308061926135993",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_202308061926135993_church_i1.webp",
@@ -1949,6 +2126,7 @@ const artworksData = [
   },
   {
     "number": "202308061926135993",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308061926135993_first_spring_i1.webp",
@@ -1960,6 +2138,7 @@ const artworksData = [
   },
   {
     "number": "202308061926135993",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308061926135993_autumn_rev.webp",
@@ -1971,6 +2150,7 @@ const artworksData = [
   },
   {
     "number": "20230806192615888",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806192615888_pink_doll_i1.webp",
@@ -1982,6 +2162,7 @@ const artworksData = [
   },
   {
     "number": "20230806192615888",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806192615888_jackson_i1.webp",
@@ -1993,6 +2174,7 @@ const artworksData = [
   },
   {
     "number": "20230806192615888",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806192615888_lime_i1.webp",
@@ -2004,6 +2186,7 @@ const artworksData = [
   },
   {
     "number": "20230806192615888",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806192615888_nightlife_i1.webp",
@@ -2015,6 +2198,7 @@ const artworksData = [
   },
   {
     "number": "20230806192615888",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806192615888_ontheedge_i1.webp",
@@ -2026,6 +2210,7 @@ const artworksData = [
   },
   {
     "number": "20230806192615888",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806192615888_fiery_morning.webp",
@@ -2037,6 +2222,7 @@ const artworksData = [
   },
   {
     "number": "20230806192628458",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806192628458_glowing_weak_i1.webp",
@@ -2048,6 +2234,7 @@ const artworksData = [
   },
   {
     "number": "20230806192628458",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806192628458_cyan_b.webp",
@@ -2059,6 +2246,7 @@ const artworksData = [
   },
   {
     "number": "20230806195633987",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806195633987_multiverse_inf_i1.webp",
@@ -2070,6 +2258,7 @@ const artworksData = [
   },
   {
     "number": "20230806195633987",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806195633987_scyphozoa_i1.webp",
@@ -2081,6 +2270,7 @@ const artworksData = [
   },
   {
     "number": "20230806195633987",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806195633987_fiery_morning.webp",
@@ -2092,6 +2282,7 @@ const artworksData = [
   },
   {
     "number": "20230806195633987",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806195633987_aurora_img_101.webp",
@@ -2103,6 +2294,7 @@ const artworksData = [
   },
   {
     "number": "20230806195633987",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806195633987_pinkypink_i3.webp",
@@ -2114,6 +2306,7 @@ const artworksData = [
   },
   {
     "number": "20230806195633987",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806195633987_starling.webp",
@@ -2125,6 +2318,7 @@ const artworksData = [
   },
   {
     "number": "20230806200350568",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806200350568_gray.webp",
@@ -2136,6 +2330,7 @@ const artworksData = [
   },
   {
     "number": "20230806200350568",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806200350568_sol_och_vatten.webp",
@@ -2147,6 +2342,7 @@ const artworksData = [
   },
   {
     "number": "20230806200406365",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806200406365_gray.webp",
@@ -2158,6 +2354,7 @@ const artworksData = [
   },
   {
     "number": "20230806200406365",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806200406365_pink_matrix.webp",
@@ -2169,6 +2366,7 @@ const artworksData = [
   },
   {
     "number": "20230806200406365",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806200406365_strawberry.webp",
@@ -2180,6 +2378,7 @@ const artworksData = [
   },
   {
     "number": "20230806200957380",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230806200957380_a_fine_line_i1.webp",
@@ -2191,6 +2390,7 @@ const artworksData = [
   },
   {
     "number": "20230806200957380",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806200957380_autumn.webp",
@@ -2202,6 +2402,7 @@ const artworksData = [
   },
   {
     "number": "20230806200957380",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806200957380_gray.webp",
@@ -2213,6 +2414,7 @@ const artworksData = [
   },
   {
     "number": "20230806200957380",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806200957380_pastel_i3.webp",
@@ -2224,6 +2426,7 @@ const artworksData = [
   },
   {
     "number": "20230806200957380",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230806200957380_swe_light.webp",
@@ -2235,6 +2438,7 @@ const artworksData = [
   },
   {
     "number": "202308070841035060",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_202308070841035060_islands_i1.webp",
@@ -2246,6 +2450,7 @@ const artworksData = [
   },
   {
     "number": "202308070841035060",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308070841035060_jungle_i1.webp",
@@ -2257,6 +2462,7 @@ const artworksData = [
   },
   {
     "number": "202308070841035060",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308070841035060_second_emerald_i3.webp",
@@ -2268,6 +2474,7 @@ const artworksData = [
   },
   {
     "number": "202308070841035060",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308070841035060_rubytoo_i3.webp",
@@ -2279,6 +2486,7 @@ const artworksData = [
   },
   {
     "number": "202308070841035060",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308070841035060_and_sapphire_i3.webp",
@@ -2290,6 +2498,7 @@ const artworksData = [
   },
   {
     "number": "202308070841035060",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308070841035060_night_rainbow_img_101.webp",
@@ -2301,6 +2510,7 @@ const artworksData = [
   },
   {
     "number": "202308070841035060",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308070841035060_fire_burning_img_3_100.webp",
@@ -2312,6 +2522,7 @@ const artworksData = [
   },
   {
     "number": "202308070841035060",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308070841035060_net_i3.webp",
@@ -2323,6 +2534,7 @@ const artworksData = [
   },
   {
     "number": "202308070841035060",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308070841035060_pastel_i3.webp",
@@ -2334,6 +2546,7 @@ const artworksData = [
   },
   {
     "number": "20230807084117977",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230807084117977_pink_doll_i1.webp",
@@ -2345,6 +2558,7 @@ const artworksData = [
   },
   {
     "number": "20230807084117977",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230807084117977_church_i1.webp",
@@ -2356,6 +2570,7 @@ const artworksData = [
   },
   {
     "number": "20230807084117977",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230807084117977_cold_i1.webp",
@@ -2367,6 +2582,7 @@ const artworksData = [
   },
   {
     "number": "20230807084117977",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230807084117977_skane_i1.webp",
@@ -2378,6 +2594,7 @@ const artworksData = [
   },
   {
     "number": "20230807084117977",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230807084117977_smooth_i1.webp",
@@ -2389,6 +2606,7 @@ const artworksData = [
   },
   {
     "number": "20230808070848618",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230808070848618_pinkypink_i3.webp",
@@ -2400,6 +2618,7 @@ const artworksData = [
   },
   {
     "number": "20230808071124217",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230808071124217_grayscale_i3.webp",
@@ -2411,6 +2630,7 @@ const artworksData = [
   },
   {
     "number": "20230808071124218",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230808071124218_second_emerald_rev_i3.webp",
@@ -2422,6 +2642,7 @@ const artworksData = [
   },
   {
     "number": "20230808071124218",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230808071124218_rubytoo_rev_i3.webp",
@@ -2433,6 +2654,7 @@ const artworksData = [
   },
   {
     "number": "20230808071124218",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230808071124218_and_sapphire_rev_i3.webp",
@@ -2444,6 +2666,7 @@ const artworksData = [
   },
   {
     "number": "20230808071306340",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230808071306340_denmark.webp",
@@ -2455,6 +2678,7 @@ const artworksData = [
   },
   {
     "number": "202308080740274850",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_202308080740274850_amber_rev_i3.webp",
@@ -2466,6 +2690,7 @@ const artworksData = [
   },
   {
     "number": "202308080740274850",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_202308080740274850_pastel_i3.webp",
@@ -2477,6 +2702,7 @@ const artworksData = [
   },
   {
     "number": "20230808074243468",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230808074243468_luxembourg.webp",
@@ -2488,6 +2714,7 @@ const artworksData = [
   },
   {
     "number": "20230813190314305",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230813190314305_gray.webp",
@@ -2499,6 +2726,7 @@ const artworksData = [
   },
   {
     "number": "20230813190314305",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230813190314305_strawberry.webp",
@@ -2510,6 +2738,7 @@ const artworksData = [
   },
   {
     "number": "20230813190642585",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230813190642585_fire_burning_img_10_100.webp",
@@ -2521,6 +2750,7 @@ const artworksData = [
   },
   {
     "number": "20230813190832496",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230813190832496_luxembourg.webp",
@@ -2532,6 +2762,7 @@ const artworksData = [
   },
   {
     "number": "2023081319333582",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_2023081319333582_rubytoo_i3.webp",
@@ -2543,6 +2774,7 @@ const artworksData = [
   },
   {
     "number": "20230813195117384",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230813195117384_new_autumn_i1.webp",
@@ -2554,6 +2786,7 @@ const artworksData = [
   },
   {
     "number": "20230813195117385",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230813195117385_in_the_rough_i3.webp",
@@ -2565,6 +2798,7 @@ const artworksData = [
   },
   {
     "number": "20230813195949702",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20230813195949702_fiery_morning.webp",
@@ -2576,6 +2810,7 @@ const artworksData = [
   },
   {
     "number": "20230813195949702",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20230813195949702_luxembourg.webp",
@@ -2587,6 +2822,7 @@ const artworksData = [
   },
   {
     "number": "20231230100650408",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230100650408_autumn.webp",
@@ -2598,6 +2834,7 @@ const artworksData = [
   },
   {
     "number": "202312301053259970",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_202312301053259970_new_autumn_rev_i1.webp",
@@ -2609,6 +2846,7 @@ const artworksData = [
   },
   {
     "number": "202312301053259970",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_202312301053259970_thin_i1.webp",
@@ -2620,6 +2858,7 @@ const artworksData = [
   },
   {
     "number": "202312301053259970",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_202312301053259970_amber_rev_i3.webp",
@@ -2631,6 +2870,7 @@ const artworksData = [
   },
   {
     "number": "202312301053259970",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_202312301053259970_pinkypink_i3.webp",
@@ -2642,6 +2882,7 @@ const artworksData = [
   },
   {
     "number": "20231230105327943",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230105327943_fiery_morning.webp",
@@ -2653,6 +2894,7 @@ const artworksData = [
   },
   {
     "number": "20231230105633117",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230105633117_autumn.webp",
@@ -2664,6 +2906,7 @@ const artworksData = [
   },
   {
     "number": "20231230105633117",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230105633117_dark_disco.webp",
@@ -2675,6 +2918,7 @@ const artworksData = [
   },
   {
     "number": "20231230105633117",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230105633117_fiery_morning.webp",
@@ -2686,6 +2930,7 @@ const artworksData = [
   },
   {
     "number": "20231230111418559",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230111418559_multiverse_inf_i1.webp",
@@ -2697,6 +2942,7 @@ const artworksData = [
   },
   {
     "number": "20231230111418559",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230111418559_fiery_morning.webp",
@@ -2708,6 +2954,7 @@ const artworksData = [
   },
   {
     "number": "20231230111418559",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230111418559_web_i3.webp",
@@ -2719,6 +2966,7 @@ const artworksData = [
   },
   {
     "number": "20231230111613660",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230111613660_beyond_i1.webp",
@@ -2730,6 +2978,7 @@ const artworksData = [
   },
   {
     "number": "20231230111613660",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230111613660_church_i1.webp",
@@ -2741,6 +2990,7 @@ const artworksData = [
   },
   {
     "number": "20231230111613660",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230111613660_cold_i1.webp",
@@ -2752,6 +3002,7 @@ const artworksData = [
   },
   {
     "number": "20231230111613660",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230111613660_luxembourg.webp",
@@ -2763,6 +3014,7 @@ const artworksData = [
   },
   {
     "number": "202312301125574900",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_202312301125574900_rubytoo_i3.webp",
@@ -2774,6 +3026,7 @@ const artworksData = [
   },
   {
     "number": "202312301125574900",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_202312301125574900_pinkypink_i3.webp",
@@ -2785,6 +3038,7 @@ const artworksData = [
   },
   {
     "number": "20231230114309379",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230114309379_division_i1.webp",
@@ -2796,6 +3050,7 @@ const artworksData = [
   },
   {
     "number": "20231230114309379",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230114309379_wrong_place_i1.webp",
@@ -2807,6 +3062,7 @@ const artworksData = [
   },
   {
     "number": "20231230114309379",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230114309379_gray_r.webp",
@@ -2818,6 +3074,7 @@ const artworksData = [
   },
   {
     "number": "20231230120513590",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230120513590_half_i1.webp",
@@ -2829,6 +3086,7 @@ const artworksData = [
   },
   {
     "number": "20231230120513590",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230120513590_first_spring_rev_i1.webp",
@@ -2840,6 +3098,7 @@ const artworksData = [
   },
   {
     "number": "20231230120513590",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230120513590_season_winter_rev_i1.webp",
@@ -2851,6 +3110,7 @@ const artworksData = [
   },
   {
     "number": "20231230120513590",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230120513590_pastel_i3.webp",
@@ -2862,6 +3122,7 @@ const artworksData = [
   },
   {
     "number": "20231230120612604",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230120612604_autumn.webp",
@@ -2873,6 +3134,7 @@ const artworksData = [
   },
   {
     "number": "202312301206126043",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_202312301206126043_cold_i1.webp",
@@ -2884,6 +3146,7 @@ const artworksData = [
   },
   {
     "number": "202312301206126043",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_202312301206126043_new_autumn_i1.webp",
@@ -2895,6 +3158,7 @@ const artworksData = [
   },
   {
     "number": "202312301206126043",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_202312301206126043_pink_matrix_rev.webp",
@@ -2906,6 +3170,7 @@ const artworksData = [
   },
   {
     "number": "20231230121614525",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230121614525_spider_i1.webp",
@@ -2917,6 +3182,7 @@ const artworksData = [
   },
   {
     "number": "20231230121614525",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230121614525_fiery_morning.webp",
@@ -2928,6 +3194,7 @@ const artworksData = [
   },
   {
     "number": "20231230121919932",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230121919932_fiery_morning.webp",
@@ -2939,6 +3206,7 @@ const artworksData = [
   },
   {
     "number": "202312301224431040",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_202312301224431040_woohuu_i1.webp",
@@ -2950,6 +3218,7 @@ const artworksData = [
   },
   {
     "number": "202312301224431040",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_202312301224431040_rubytoo_i3.webp",
@@ -2961,6 +3230,7 @@ const artworksData = [
   },
   {
     "number": "202312301224508660",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_202312301224508660_amber_rev_i3.webp",
@@ -2972,6 +3242,7 @@ const artworksData = [
   },
   {
     "number": "20231230122514440",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230122514440_rubytoo_i3.webp",
@@ -2983,6 +3254,7 @@ const artworksData = [
   },
   {
     "number": "20231230122514440",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230122514440_gray.webp",
@@ -2994,6 +3266,7 @@ const artworksData = [
   },
   {
     "number": "202312301226104701",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_202312301226104701_moth_i1.webp",
@@ -3005,6 +3278,7 @@ const artworksData = [
   },
   {
     "number": "202312301226104701",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_202312301226104701_gray.webp",
@@ -3016,6 +3290,7 @@ const artworksData = [
   },
   {
     "number": "20231230122619910",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230122619910_amber_i3.webp",
@@ -3027,6 +3302,7 @@ const artworksData = [
   },
   {
     "number": "20231230122619910",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230122619910_rubytoo_i3.webp",
@@ -3038,6 +3314,7 @@ const artworksData = [
   },
   {
     "number": "20231230122619910",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230122619910_rubytoo_rev_i3.webp",
@@ -3049,6 +3326,7 @@ const artworksData = [
   },
   {
     "number": "20231230122619910",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230122619910_gray.webp",
@@ -3060,6 +3338,7 @@ const artworksData = [
   },
   {
     "number": "2023123012271677",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_2023123012271677_fiery_morning.webp",
@@ -3071,6 +3350,7 @@ const artworksData = [
   },
   {
     "number": "202312301227506600",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_202312301227506600_new_autumn_i1.webp",
@@ -3082,6 +3362,7 @@ const artworksData = [
   },
   {
     "number": "202312301227506600",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_202312301227506600_rubytoo_i3.webp",
@@ -3093,6 +3374,7 @@ const artworksData = [
   },
   {
     "number": "2023123012285061",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_2023123012285061_fiery_morning.webp",
@@ -3104,6 +3386,7 @@ const artworksData = [
   },
   {
     "number": "20231230123407977",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230123407977_fiery_morning.webp",
@@ -3115,6 +3398,7 @@ const artworksData = [
   },
   {
     "number": "20231230123517296",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230123517296_fiery_morning.webp",
@@ -3126,6 +3410,7 @@ const artworksData = [
   },
   {
     "number": "202312301237054240",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_202312301237054240_spell_i1.webp",
@@ -3137,6 +3422,7 @@ const artworksData = [
   },
   {
     "number": "202312301242433310",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_202312301242433310_ice_i1.webp",
@@ -3148,6 +3434,7 @@ const artworksData = [
   },
   {
     "number": "202312301242433310",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202312301242433310_amber_i3.webp",
@@ -3159,6 +3446,7 @@ const artworksData = [
   },
   {
     "number": "202312301242433310",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202312301242433310_rubytoo_rev_i3.webp",
@@ -3170,6 +3458,7 @@ const artworksData = [
   },
   {
     "number": "202312301242433310",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202312301242433310_gray.webp",
@@ -3181,6 +3470,7 @@ const artworksData = [
   },
   {
     "number": "20231230124350130",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230124350130_autumn.webp",
@@ -3192,6 +3482,7 @@ const artworksData = [
   },
   {
     "number": "20231230124350130",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230124350130_fiery_morning.webp",
@@ -3203,6 +3494,7 @@ const artworksData = [
   },
   {
     "number": "20231230124350130",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231230124350130_pink_matrix.webp",
@@ -3214,6 +3506,7 @@ const artworksData = [
   },
   {
     "number": "20231230124413265",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230124413265_fiery_morning.webp",
@@ -3225,6 +3518,7 @@ const artworksData = [
   },
   {
     "number": "20231230124618960",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230124618960_fiery_morning.webp",
@@ -3236,6 +3530,7 @@ const artworksData = [
   },
   {
     "number": "20231230124626325",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231230124626325_fiery_morning.webp",
@@ -3247,6 +3542,7 @@ const artworksData = [
   },
   {
     "number": "2023123012462632501",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_2023123012462632501_ice_i1.webp",
@@ -3258,6 +3554,7 @@ const artworksData = [
   },
   {
     "number": "2023123012462632501",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_2023123012462632501_amber_i3.webp",
@@ -3269,6 +3566,7 @@ const artworksData = [
   },
   {
     "number": "2023123012462632501",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_2023123012462632501_gray.webp",
@@ -3280,6 +3578,7 @@ const artworksData = [
   },
   {
     "number": "20231231082621682",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231231082621682_autumn.webp",
@@ -3291,6 +3590,7 @@ const artworksData = [
   },
   {
     "number": "20231231082621682",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231231082621682_gray.webp",
@@ -3302,6 +3602,7 @@ const artworksData = [
   },
   {
     "number": "20231231082621682",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231231082621682_luxembourg.webp",
@@ -3313,6 +3614,7 @@ const artworksData = [
   },
   {
     "number": "20231231082621682",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20231231082621682_yellow_mist_i3.webp",
@@ -3324,6 +3626,7 @@ const artworksData = [
   },
   {
     "number": "20231231091212796",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231231091212796_and_sapphire_i3.webp",
@@ -3335,6 +3638,7 @@ const artworksData = [
   },
   {
     "number": "20231231092141174",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20231231092141174_season_winter_rev_i1.webp",
@@ -3346,6 +3650,7 @@ const artworksData = [
   },
   {
     "number": "20240217103738330",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_CDRGB__20240217103738330.png",
@@ -3357,6 +3662,7 @@ const artworksData = [
   },
   {
     "number": "20240222094108611",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20240222094108611_gray.webp",
@@ -3368,6 +3674,7 @@ const artworksData = [
   },
   {
     "number": "20240222094108611",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20240222094108611_interval.webp",
@@ -3379,6 +3686,7 @@ const artworksData = [
   },
   {
     "number": "20240222094313525",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20240222094313525_plasma_rev.webp",
@@ -3390,6 +3698,7 @@ const artworksData = [
   },
   {
     "number": "20240222094322670",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20240222094322670_autumn.webp",
@@ -3401,6 +3710,7 @@ const artworksData = [
   },
   {
     "number": "20240222094322670",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20240222094322670_fiery_morning_rev.webp",
@@ -3412,6 +3722,7 @@ const artworksData = [
   },
   {
     "number": "20240222094322670",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20240222094322670_gray_rev.webp",
@@ -3423,6 +3734,7 @@ const artworksData = [
   },
   {
     "number": "20240222094322670",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20240222094322670_pink_matrix_rev.webp",
@@ -3434,6 +3746,7 @@ const artworksData = [
   },
   {
     "number": "20240222094814390",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20240222094814390_solar_system_i3.webp",
@@ -3445,6 +3758,7 @@ const artworksData = [
   },
   {
     "number": "20240222094835374",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20240222094835374_gray_rev.webp",
@@ -3456,6 +3770,7 @@ const artworksData = [
   },
   {
     "number": "20240222094835374",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20240222094835374_sol_och_vatten.webp",
@@ -3467,6 +3782,7 @@ const artworksData = [
   },
   {
     "number": "20240222104111567",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20240222104111567_gray_rev.webp",
@@ -3478,6 +3794,7 @@ const artworksData = [
   },
   {
     "number": "20240223082823182",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20240223082823182_gray_r_rev.webp",
@@ -3489,6 +3806,7 @@ const artworksData = [
   },
   {
     "number": "20240223082823182",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20240223082823182_gray_rev.webp",
@@ -3500,6 +3818,7 @@ const artworksData = [
   },
   {
     "number": "20240223083013649",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20240223083013649_gray_rev.webp",
@@ -3511,6 +3830,7 @@ const artworksData = [
   },
   {
     "number": "20240223083013649",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20240223083013649_interval_rev.webp",
@@ -3522,6 +3842,7 @@ const artworksData = [
   },
   {
     "number": "20240223083013649",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20240223083013649_pink_sea_rev.webp",
@@ -3533,6 +3854,7 @@ const artworksData = [
   },
   {
     "number": "20240223084926106",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20240223084926106_fiery_morning_rev.webp",
@@ -3544,6 +3866,7 @@ const artworksData = [
   },
   {
     "number": "20240223084926106",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20240223084926106_luxembourg_rev.webp",
@@ -3555,6 +3878,7 @@ const artworksData = [
   },
   {
     "number": "20240223085801208",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20240223085801208_church_i1.webp",
@@ -3566,6 +3890,7 @@ const artworksData = [
   },
   {
     "number": "20240223085801208",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20240223085801208_graffiti_i1.webp",
@@ -3577,6 +3902,7 @@ const artworksData = [
   },
   {
     "number": "20240223085801208",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20240223085801208_lime_i1.webp",
@@ -3588,6 +3914,7 @@ const artworksData = [
   },
   {
     "number": "20240223085801208",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20240223085801208_smooth_i1.webp",
@@ -3599,6 +3926,7 @@ const artworksData = [
   },
   {
     "number": "20240223085801208",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20240223085801208_the_ring_i1.webp",
@@ -3610,6 +3938,7 @@ const artworksData = [
   },
   {
     "number": "20250218084314802",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250218084314802_blueberry_fields_i1.webp",
@@ -3621,6 +3950,7 @@ const artworksData = [
   },
   {
     "number": "20250218084314802",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250218084314802_church_i1.webp",
@@ -3632,6 +3962,7 @@ const artworksData = [
   },
   {
     "number": "20250218084314802",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250218084314802_dangerous_i1.webp",
@@ -3643,6 +3974,7 @@ const artworksData = [
   },
   {
     "number": "20250218084314802",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250218084314802_autumn_rev.webp",
@@ -3654,6 +3986,7 @@ const artworksData = [
   },
   {
     "number": "20250218084314802",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250218084314802_gray.webp",
@@ -3665,6 +3998,7 @@ const artworksData = [
   },
   {
     "number": "20250218084314802",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250218084314802_sol_och_vatten_rev.webp",
@@ -3676,6 +4010,7 @@ const artworksData = [
   },
   {
     "number": "20250218085348455",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250218085348455_sol_och_vatten_rev.webp",
@@ -3687,6 +4022,7 @@ const artworksData = [
   },
   {
     "number": "2025030208493491",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_2025030208493491_denmark_rev.webp",
@@ -3698,6 +4034,7 @@ const artworksData = [
   },
   {
     "number": "2025030208493491",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_2025030208493491_starling_rev.webp",
@@ -3709,6 +4046,7 @@ const artworksData = [
   },
   {
     "number": "20250303174223829",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250303174223829_glue_i1.webp",
@@ -3720,6 +4058,7 @@ const artworksData = [
   },
   {
     "number": "20250303182505891",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250303182505891_first_spring_rev_i1.webp",
@@ -3731,6 +4070,7 @@ const artworksData = [
   },
   {
     "number": "20250303182505891",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250303182505891_season_winter_i1.webp",
@@ -3742,6 +4082,7 @@ const artworksData = [
   },
   {
     "number": "20250303223352236",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250303223352236_safire_rev_i3.webp",
@@ -3753,6 +4094,7 @@ const artworksData = [
   },
   {
     "number": "20250303223352237",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250303223352237_islands_i1.webp",
@@ -3764,6 +4106,7 @@ const artworksData = [
   },
   {
     "number": "20250304065426173",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250304065426173_gray_rev.webp",
@@ -3775,6 +4118,7 @@ const artworksData = [
   },
   {
     "number": "202503040654300",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_202503040654300_berry_i1.webp",
@@ -3786,6 +4130,7 @@ const artworksData = [
   },
   {
     "number": "20250304104734798",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250304104734798_pastel_rev_i3.webp",
@@ -3797,6 +4142,7 @@ const artworksData = [
   },
   {
     "number": "20250304104754304",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250304104754304_new_autumn_i1.webp",
@@ -3808,6 +4154,7 @@ const artworksData = [
   },
   {
     "number": "20250304104754304",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250304104754304_first_spring_i1.webp",
@@ -3819,6 +4166,7 @@ const artworksData = [
   },
   {
     "number": "20250304104754304",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250304104754304_amber_i3.webp",
@@ -3830,6 +4178,7 @@ const artworksData = [
   },
   {
     "number": "20250304105211188",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250304105211188_second_emerald_i3.webp",
@@ -3841,6 +4190,7 @@ const artworksData = [
   },
   {
     "number": "20250304105211188",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250304105211188_rubytoo_rev_i3.webp",
@@ -3852,6 +4202,7 @@ const artworksData = [
   },
   {
     "number": "20250304105211188",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250304105211188_and_sapphire_i3.webp",
@@ -3863,6 +4214,7 @@ const artworksData = [
   },
   {
     "number": "20250304105211188",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250304105211188_gray_rev.webp",
@@ -3874,6 +4226,7 @@ const artworksData = [
   },
   {
     "number": "2025030410544017",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_2025030410544017_a_three_in_the_forrest_rev_i1.webp",
@@ -3885,6 +4238,7 @@ const artworksData = [
   },
   {
     "number": "2025030410544017",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_2025030410544017_division_nudge_rev_i1.webp",
@@ -3896,6 +4250,7 @@ const artworksData = [
   },
   {
     "number": "2025030410544017",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_2025030410544017_heaven_rev_i1.webp",
@@ -3907,6 +4262,7 @@ const artworksData = [
   },
   {
     "number": "2025030410544017",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_2025030410544017_ice_rev_i1.webp",
@@ -3918,6 +4274,7 @@ const artworksData = [
   },
   {
     "number": "2025030410544017",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_2025030410544017_rubyinwater_i1.webp",
@@ -3929,6 +4286,7 @@ const artworksData = [
   },
   {
     "number": "2025030410544017",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_2025030410544017_space_rev_i1.webp",
@@ -3940,6 +4298,7 @@ const artworksData = [
   },
   {
     "number": "2025030411393051",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_2025030411393051_gray_rev.webp",
@@ -3951,6 +4310,7 @@ const artworksData = [
   },
   {
     "number": "2025030411393051",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_2025030411393051_pastel_rev_i3.webp",
@@ -3962,6 +4322,7 @@ const artworksData = [
   },
   {
     "number": "20250304114048213",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250304114048213_division_rev_i1.webp",
@@ -3973,6 +4334,7 @@ const artworksData = [
   },
   {
     "number": "20250304114048213",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250304114048213_islands_rev_i1.webp",
@@ -3984,6 +4346,7 @@ const artworksData = [
   },
   {
     "number": "20250304114048213",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250304114048213_amber_i3.webp",
@@ -3995,6 +4358,7 @@ const artworksData = [
   },
   {
     "number": "20250304114048213",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250304114048213_rubytoo_i3.webp",
@@ -4006,6 +4370,7 @@ const artworksData = [
   },
   {
     "number": "20250304114048213",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250304114048213_gray_rev.webp",
@@ -4017,6 +4382,7 @@ const artworksData = [
   },
   {
     "number": "20250304114048213",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250304114048213_fire_burning_img_3_100_rev.webp",
@@ -4028,6 +4394,7 @@ const artworksData = [
   },
   {
     "number": "20250304114105880",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250304114105880_amber_i3.webp",
@@ -4039,6 +4406,7 @@ const artworksData = [
   },
   {
     "number": "20250318113827899",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/rain_old_0005_20250318113827899_G.png",
@@ -4050,6 +4418,7 @@ const artworksData = [
   },
   {
     "number": "20250318113942403",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/rain_old_0133_20250318113942403_G.png",
@@ -4061,6 +4430,7 @@ const artworksData = [
   },
   {
     "number": "20250318114204268",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/rain_old_0053_20250318114204268_B.png",
@@ -4072,6 +4442,7 @@ const artworksData = [
   },
   {
     "number": "20250318114204268",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/rain_old_0053_20250318114204268_G.png",
@@ -4083,6 +4454,7 @@ const artworksData = [
   },
   {
     "number": "20250318114204268",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/rain_old_0053_20250318114204268_R.png",
@@ -4094,6 +4466,7 @@ const artworksData = [
   },
   {
     "number": "20250318114204268",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/rain_old_0053_20250318114204268_RGB.png",
@@ -4105,6 +4478,7 @@ const artworksData = [
   },
   {
     "number": "20250318114338571",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/rain_old_0398_20250318114338571_RGB.png",
@@ -4116,6 +4490,7 @@ const artworksData = [
   },
   {
     "number": "20250601132710",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250601132710_pink_matrix_rev.webp",
@@ -4127,6 +4502,7 @@ const artworksData = [
   },
   {
     "number": "20250601132710",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250601132710_safire_rev_i3.webp",
@@ -4138,6 +4514,7 @@ const artworksData = [
   },
   {
     "number": "20250601132906",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250601132906_first_spring_rev_i1.webp",
@@ -4149,6 +4526,7 @@ const artworksData = [
   },
   {
     "number": "20250601132906",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250601132906_autumn.webp",
@@ -4160,6 +4538,7 @@ const artworksData = [
   },
   {
     "number": "20250601132906",
+    "random": false,
     "main": false,
     "pinned": false,
     "filename": "works/image_20250601132906_pastel_rev_i3.webp",
@@ -4171,6 +4550,7 @@ const artworksData = [
   },
   {
     "number": "20250601133338",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250601133338_first_spring_i1.webp",
@@ -4182,6 +4562,7 @@ const artworksData = [
   },
   {
     "number": "20250803230229982",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_20250803230229982_specter_i1.webp",
@@ -4193,6 +4574,7 @@ const artworksData = [
   },
   {
     "number": "202510291052129232",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_202510291052129232_new_autumn_i1.webp",
@@ -4204,6 +4586,7 @@ const artworksData = [
   },
   {
     "number": "202510291052129232",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202510291052129232_first_spring_rev_i1.webp",
@@ -4215,6 +4598,7 @@ const artworksData = [
   },
   {
     "number": "202510291052129232",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202510291052129232_season_winter_i1.webp",
@@ -4226,6 +4610,7 @@ const artworksData = [
   },
   {
     "number": "202510291052129232",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202510291052129232_inbetween_i1.webp",
@@ -4237,6 +4622,7 @@ const artworksData = [
   },
   {
     "number": "202510291052129232",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_202510291052129232_pinkypink_i3.webp",
@@ -4248,6 +4634,7 @@ const artworksData = [
   },
   {
     "number": "202511161216114087018",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_202511161216114087018_fiery_morning.webp",
@@ -4259,6 +4646,7 @@ const artworksData = [
   },
   {
     "number": "2025111612161140910610",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_2025111612161140910610_fiery_morning.webp",
@@ -4270,6 +4658,7 @@ const artworksData = [
   },
   {
     "number": "2025111612161140927011",
+    "random": true,
     "main": true,
     "pinned": false,
     "filename": "works/image_2025111612161140927011_amber_rev_i3.webp",
@@ -4281,6 +4670,7 @@ const artworksData = [
   },
   {
     "number": "2025111612161140927011",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_2025111612161140927011_rubytoo_rev_i3.webp",
@@ -4292,6 +4682,7 @@ const artworksData = [
   },
   {
     "number": "2025111612161140927011",
+    "random": true,
     "main": false,
     "pinned": false,
     "filename": "works/image_2025111612161140927011_and_sapphire_rev_i3.webp",
@@ -4303,6 +4694,7 @@ const artworksData = [
   },
   {
     "number": "2025111612161141038716",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_2025111612161141038716_gray.webp",
@@ -4314,6 +4706,7 @@ const artworksData = [
   },
   {
     "number": "2025111612161141173521",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_2025111612161141173521_aurora_img_101.webp",
@@ -4325,6 +4718,7 @@ const artworksData = [
   },
   {
     "number": "2025111612161141227123",
+    "random": false,
     "main": true,
     "pinned": false,
     "filename": "works/image_2025111612161141227123_and_sapphire_i3.webp",

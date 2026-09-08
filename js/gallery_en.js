@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (gallery && typeof artworksData !== "undefined") {
     gallery.innerHTML = "";
-    
+
     // Hämta endast huvudbilderna för galleriet
     var mainArtworks = artworksData.filter(function (art) {
       return art.main !== false;
@@ -54,7 +54,7 @@ function openLightboxGroup(groupNumber, activeArt) {
   var titleEl = document.getElementById("lightbox-title");
   var colorscaleEl = document.getElementById("lightbox-colorscale");
   var commentEl = document.getElementById("lightbox-comment");
-  
+
   var printBtn = document.getElementById("lightbox-print-btn");
   var printContainer = document.getElementById("lightbox-print-container");
   var thumbsBox = document.getElementById("lightbox-thumbs-box");
@@ -66,11 +66,11 @@ function openLightboxGroup(groupNumber, activeArt) {
   lightboxImg.alt = activeArt.alt || "";
 
   if (titleEl) titleEl.textContent = activeArt.title || "";
-  
+
   if (colorscaleEl) {
     var formattedScale = formatColorscale(activeArt.colorscale);
-    colorscaleEl.textContent = formattedScale 
-      ? "Color scale: " + formattedScale 
+    colorscaleEl.textContent = formattedScale
+      ? "Color scale: " + formattedScale
       : "";
   }
 
@@ -93,36 +93,69 @@ function openLightboxGroup(groupNumber, activeArt) {
 
       // Om bilden är markerad som såld
       if (activeArt.sold === true) {
-        printContainer.innerHTML = 
+        printContainer.innerHTML =
           '<div class="print-info-card">' +
-            '<p class="price-highlight"><strong>Sold</strong></p>' +
+          '<p class="price-highlight"><strong>Sold</strong></p>' +
           '</div>';
       } else {
         // Om den inte är såld (false eller saknas)
         var rawPrice = (activeArt.price !== undefined && activeArt.price !== null)
-          ? String(activeArt.price).trim() 
+          ? String(activeArt.price).trim()
           : "";
 
-        var priceText = rawPrice !== "" ? rawPrice : "On request";
-        
-        // Dynamisk rad för år (visas endast om 'year' finns i artworksData)
-        var yearHTML = activeArt.year ? '<strong>Year:</strong> ' + activeArt.year + '<br>' : '';
+        var priceHTML = '';
 
-        printContainer.innerHTML = 
+        if (rawPrice && rawPrice.trim() !== "") {
+          priceHTML = rawPrice;
+        } else if (activeArt.random) {
+          priceHTML =
+            '<br>&emsp;A4:&emsp;1 500 SEK' +
+            '<br>&emsp;A3:&emsp;2 000 SEK' +
+            '<br>&emsp;A2:&emsp;3 000 SEK';
+        } else {
+          priceHTML =
+            '<br>&emsp;A4:&emsp;2 500 SEK' +
+            '<br>&emsp;A3:&emsp;3 500 SEK' +
+            '<br>&emsp;A2:&emsp;5 000 SEK';
+        }
+
+        // Fast bredd på etiketten så att årtal och upplaga börjar på exakt samma linje
+        var labelStyle = 'style="display: inline-block; width: 90px;"';
+
+        // Dynamic row for year (only displayed if 'year' exists)
+        var yearHTML = activeArt.year 
+          ? '<span ' + labelStyle + '><strong>Year:</strong></span>' + activeArt.year + '<br>' 
+          : '';
+
+        var randomHTML = activeArt.random
+          ? '<span ' + labelStyle + '><strong>Edition:</strong></span>Unique seed each print<br>'
+          : '<span ' + labelStyle + '><strong>Edition:</strong></span>Identical prints<br>';
+
+        printContainer.innerHTML =
           '<div class="print-info-card">' +
-            '<h4>Print Information</h4>' +
-            '<p class="price-highlight"><strong>Price:</strong> ' + priceText + '</p>' +
-            '<p class="specs-text">' +
-              yearHTML +
-              '<strong>Printer:</strong> Epson SC-P900<br>' +
-              '<strong>Print size:</strong> Up to A2 (420 × 594 mm)<br>' +
-              '<strong>Paper:</strong> Fine Art Cotton Textured Natural II (300 g/m²)' +
-            '</p>' +
-            '<p class="note-text"><small>' +
-              'Signed on the back upon request.<br>' +
-              'Delivered unframed.<br>' +
-              'Framing available upon request.' +
-            '</small></p>' +
+          '<h4>Print Information</h4>' +
+          '<p class="price-highlight"><strong>Price:</strong> ' + priceHTML + '</p>' +
+
+          '<p class="specs-text">' +
+          yearHTML +
+          randomHTML +
+          '</p>' +
+
+          '<p class="specs-text">' +
+          'Signed on the back upon request.<br>' +
+          'Delivered unframed. Custom framing can be arranged upon request.' +
+          '</p>' +
+
+          '<p class="specs-text">' +
+          '<strong>Paper:</strong> Fine Art Cotton Textured Natural II (300 g/m²)<br><br>' +
+          '<strong>Print Size:</strong><br>' +
+          '&emsp; <strong>A4:</strong>&emsp;210 × 297 mm<br>' +
+          '&emsp; <strong>A3:</strong>&emsp;297 × 420 mm<br>' +
+          '&emsp; <strong>A2:</strong>&emsp;420 × 594 mm<br><br>' +
+          '<strong>Adaptation:</strong><br>' +
+          'New composition generated upon request for custom aspect ratios (width/height).' +
+          '</p>' +
+
           '</div>';
       }
     } else {
@@ -157,7 +190,7 @@ function openLightboxGroup(groupNumber, activeArt) {
         var thumb = document.createElement("img");
         thumb.src = variant.filename;
         thumb.alt = variant.alt || "";
-        
+
         var thumbScale = formatColorscale(variant.colorscale);
         thumb.title = thumbScale ? "Color scale: " + thumbScale : "";
         thumb.classList.add("lightbox-thumb");

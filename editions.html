@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur & Färg – Bäret Konst</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+
+    <style>
+        .option-btn {
+            cursor: pointer;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .option-btn.active {
+            background-color: #444444 !important;
+            color: #ffffff !important;
+            border-color: #444444 !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- FIXERAD HEADER -->
+    <header class="site-header">
+        <div class="header-content">
+            <img src="images/logo.png" alt="Logotyp" class="logo">
+            <h1>Bäret Konst</h1>
+        </div>
+
+        <!-- Språkval -->
+        <div class="language-dropdown" id="language-dropdown">
+            <a href="editions.html" id="language-btn-sv" class="dropdown-btn">
+                <img src="images/sweden-flag.png" alt="Swedish" class="flag-icon"> Sv
+            </a>
+            <a href="editions_en.html" id="language-btn-en" class="dropdown-btn">
+                <img src="images/uk-flag.png" alt="English" class="flag-icon"> En
+            </a>
+        </div>
+
+        <!-- Menyn inuti headern -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="about.html">Om</a></li>
+                <li><a href="process.html">Process</a></li>
+                <li><a href="editions.html">Upplagor</a></li>
+                <li><a href="works.html">Galleri</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Text- och interaktionssektion -->
+    <main>
+        <section class="content">
+            <h1>Upplagor</h1>
+            <div class="about">
+
+                <h2 class="sub-heading">Struktur</h2>
+                <p>
+                    I grunden skapas varje verk av en matematisk algoritm. Bilden du ser i gråskala nedan utgör verkets komposition, det vill säga den underliggande struktur som koden genererat.
+                </p>
+
+                <!-- Interaktiv visning av komposition och färgskalor -->
+                <div class="interactive-preview" style="text-align: center; margin-bottom: 25px;">
+                    <img id="preview-image" src="works/image_202312301242433310_gray.webp" class="images_large" alt="Grundstruktur i gråskala">
+
+                    <!-- Knappar för att byta färgskala -->
+                    <div class="color-picker-demo" style="margin-top: 15px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+                        <button onclick="changePreview(this, 'works/image_202312301242433310_gray.webp')" class="dropdown-btn option-btn active">Gråskala (Struktur)</button>
+                        <button onclick="changePreview(this, 'works/image_202312301242433310_amber_i3.webp')" class="dropdown-btn option-btn">Amber</button>
+                        <button onclick="changePreview(this, 'works/image_202312301242433310_ice_i1.webp')" class="dropdown-btn option-btn">Ice</button>
+                    </div>
+                </div>
+
+                <h2 class="sub-heading">Färg</h2>
+                <p>
+                    Vidare färgläggs strukturen utifrån en färgskala och det färdiga verket uppstår. 
+                    En kombination av en specifik struktur och en specifik färgskala trycks och säljs <strong>endast i ett enda exemplar</strong>. 
+                </p>
+                <p>
+                    Samma grundstruktur kan förekomma i andra färgserier (som exemplen ovan), men två helt identiska tryck framställs aldrig. Varje fysiskt tryck är därmed unikt i sitt specifika utförande.
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy Bäret Konst 2025. Alla rättigheter förbehållna. Webbdesign av Bäret Konst.</p>
+    </footer>
+
+    <!-- JS för aktiv knapp och källbyte -->
+    <script>
+        function changePreview(selectedBtn, imgSrc) {
+            const img = document.getElementById('preview-image');
+            const buttons = document.querySelectorAll('.option-btn');
+            
+            // Ta bort active-klassen från alla knappar
+            buttons.forEach(btn => btn.classList.remove('active'));
+            
+            // Lägg till active-klassen på den valda knappen
+            selectedBtn.classList.add('active');
+            
+            // Uppdatera bild
+            img.src = imgSrc;
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
