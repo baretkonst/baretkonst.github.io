@@ -132,7 +132,7 @@ function openLightboxGroup(groupNumber, activeArt) {
           : '<span ' + labelStyle + '><strong>Creation:</strong></span>Fixed structures<br>';
 
         var colorscaleHTML = formattedScale
-          ? '<span ' + labelStyle + '><strong>Colorscale:</strong></span>' + formattedScale + '<br>'
+          ? '<span ' + labelStyle + '><strong>Color scale:</strong></span>' + formattedScale + '<br>'
           : '';
 
         printContainer.innerHTML =
