@@ -123,13 +123,17 @@ function openLightboxGroup(groupNumber, activeArt) {
         var labelStyle = 'style="display: inline-block; width: 90px;"';
 
         // Dynamic row for year (only displayed if 'year' exists)
-        var yearHTML = activeArt.year 
-          ? '<span ' + labelStyle + '><strong>Year:</strong></span>' + activeArt.year + '<br>' 
+        var yearHTML = activeArt.year
+          ? '<span ' + labelStyle + '><strong>Year:</strong></span>' + activeArt.year + '<br>'
           : '';
 
         var randomHTML = activeArt.random
           ? '<span ' + labelStyle + '><strong>Creation:</strong></span>Unique structure<br>'
           : '<span ' + labelStyle + '><strong>Creation:</strong></span>Fixed structures<br>';
+
+        var colorscaleHTML = formattedScale
+          ? '<span ' + labelStyle + '><strong>Färgskala:</strong></span>' + formattedScale + '<br>'
+          : '';
 
         printContainer.innerHTML =
           '<div class="print-info-card">' +
@@ -139,6 +143,7 @@ function openLightboxGroup(groupNumber, activeArt) {
           '<p class="specs-text">' +
           yearHTML +
           randomHTML +
+          colorscaleHTML +
           '</p>' +
 
           '<p class="specs-text">' +
