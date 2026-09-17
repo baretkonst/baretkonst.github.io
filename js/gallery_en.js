@@ -107,7 +107,7 @@ function openLightboxGroup(groupNumber, activeArt) {
 
         if (rawPrice && rawPrice.trim() !== "") {
           priceHTML = rawPrice;
-        } else if (activeArt.random) {
+        } else if (activeArt.random == 1) {
           priceHTML =
             '<br>&emsp;A4:&emsp;1 500 SEK' +
             '<br>&emsp;A3:&emsp;2 000 SEK' +
@@ -127,9 +127,16 @@ function openLightboxGroup(groupNumber, activeArt) {
           ? '<span ' + labelStyle + '><strong>Year:</strong></span>' + activeArt.year + '<br>'
           : '';
 
-        var randomHTML = activeArt.random
-          ? '<span ' + labelStyle + '><strong>Creation:</strong></span>Unique structure<br>'
-          : '<span ' + labelStyle + '><strong>Creation:</strong></span>Fixed structures<br>';
+        var structureTexts = {
+          0: 'Fixed structures',
+          1: 'Unique structure',
+          2: 'From photograph'
+        };
+
+        // Hämta texten baserat på nummer (med en fallback om numret saknas)
+        var structureText = structureTexts[activeArt.random] || 'Unknown structure';
+
+        var randomHTML = '<span ' + labelStyle + '><strong>Creation:</strong></span>' + structureText + '<br>';
 
         var colorscaleHTML = formattedScale
           ? '<span ' + labelStyle + '><strong>Color scale:</strong></span>' + formattedScale + '<br>'
